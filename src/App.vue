@@ -2,7 +2,9 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/document">Docs</router-link> |
+      <router-link to="/blog">Blog</router-link>
     </div>
     <router-view/>
   </div>
@@ -19,6 +21,10 @@
 
 #nav {
   padding: 30px;
+  width: 50%;
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-between;
 
   a {
     font-weight: bold;
