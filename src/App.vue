@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/document">Docs</router-link> |
+      <img class="leaflogo" alt="leaf logo" src="./assets/leaflogo3.png">
+      <router-link to="/">Home</router-link> 
+      <router-link to="/about">About</router-link> 
+      <router-link to="/document">Docs</router-link> 
       <router-link to="/blog">Blog</router-link>
     </div>
     <router-view/>
@@ -29,10 +30,15 @@
   a {
     font-weight: bold;
     color: #2c3e50;
+    margin-top: 10px;
+    
 
     &.router-link-exact-active {
       color: #42b983;
     }
+  }
+  img {
+    width: 2.5em;
   }
 }
 </style>

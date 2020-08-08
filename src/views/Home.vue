@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img class="header" alt="leaf logo" src="../assets/leaf2.jpg">
+    <img class="img-header" alt="leaf logo" src="../assets/leaf2.jpg">
   </div>
 </template>
 
@@ -19,10 +19,10 @@
   .home {
     width: 100%;
   }
-  .header {
-    margin-left: 30em;
+  .img-header {
+    margin-left: 44em;
     margin-top: 5em;
-    width: 60%;
+    width: 57%;
     
   }
 </style>
