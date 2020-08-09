@@ -25,8 +25,8 @@
 }
 
 #nav {
-  margin-top: 10px;
-  height: 3em;
+  margin-top: 12px;
+  height: 52px;
   margin-left: 10em;
   width: 50%;
   display: flex;
