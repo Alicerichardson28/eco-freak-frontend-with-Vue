@@ -7,6 +7,7 @@
       <router-link to="/document">Docs</router-link> 
       <router-link to="/blog">Blog</router-link>
     </div>
+      <hr>
     <router-view/>
   </div>
 </template>
@@ -21,11 +22,13 @@
 }
 
 #nav {
-  padding: 30px;
+  margin-left: 10em;
+  padding: 5px;
   width: 50%;
   display: flex;
   align-content: flex-end;
   justify-content: space-between;
+  
 
   a {
     font-weight: bold;
@@ -40,6 +43,10 @@
   img {
     width: 2.5em;
   }
+}
+
+hr {
+  border-top: 1px solid lightgray;
 }
 </style>
 
