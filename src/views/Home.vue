@@ -1,7 +1,7 @@
 <template>
   <div class="home-container">
     <div class="header-container">
-      <h1>HOW TO GO GREEN</h1>
+      <h1 class="header">HOW TO GO GREEN</h1>
       <p class="paragrah-container"> A lot of people are daunted by the idea of “going green” as it may seem like one would need to make sweeping lifestyle changes to be able to make a difference. Fortunately, that’s not the case.</p>
     </div>
     <div class="image-container"> 
@@ -30,6 +30,12 @@
   .header-container {
     width: 25%;
     margin-top: 10em;
+  }
+  .header {
+    text-align: left;
+  }
+  .paragrah-container {
+    text-align: left;
   }
   .img-header {
     margin-left: 30em;
