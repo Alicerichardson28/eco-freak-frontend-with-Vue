@@ -64,9 +64,13 @@
     text-align: left;
   }
   .card-container {
-    width: 1000px;
+    display: flex;
+ 
+    width: 1500px;
     height: 500px;
     margin-top: 10em;
+    
+    
   }
   .card {
     width: 150%;
