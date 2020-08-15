@@ -3,7 +3,8 @@
       <div class="first-container">
         <h1 class="header">HOW TO GO GREEN</h1>
         <p class="paragrah-container"> A lot of people are daunted by the idea of <strong>“going green”</strong> as it may seem like one would need to make sweeping lifestyle changes to be able to make a difference. Fortunately, that’s not the case.</p>
-        <p class='content'>Want To Be Happier, Healthier, And More Productive? Go Green.</p>  
+        <h3 class="content-header">Want To Be Happier, Healthier, And More Productive? Go Green.</h3>  
+        <p class="content">October is National Work & Family Month, when businesses, academic institutions, federal agencies, members of Congress, work-life advocacy groups, and individuals collectively raise awareness about making it easier for employees to succeed at work and at home. We know a simple and extremely effective solution: Go green! As it turns out, going green has plenty of benefits for more than just the planet. Research shows that green buildings have a hugely positive impact on the health (mental and physical) of the lucky people who live and work there. Going green means improving indoor air quality, making use of natural lighting, and using eco-friendly materials — all of which contribute to your happiness, health, and productivity. </p>
       </div>
       <div class="image-container"> 
         <img class="img-header" alt="leaf-header" src="../assets/leaf2.jpg">
@@ -42,15 +43,20 @@
   .img-header {
     margin-left: 30em;
     margin-top: 5em;
-    width: 60%;
+    width: 55%;
   }
   .image-container {  
     height: 40%;
   }
-  .content {
-    width: 70%;
-    margin-top: 30em;
-    margin-left: 30em;
+  .content-header {
+    width: 50em;
+    margin-top: 15em;
+    margin-left: 13em;
+  }
+  .content{
+    width: 50em;
+    margin-left: 20em;
+    text-align: left;
   }
 </style>
 
