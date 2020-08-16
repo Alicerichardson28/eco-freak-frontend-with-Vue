@@ -21,7 +21,7 @@
           </li>
           <li class="list-card">
             <div class="title-container">
-              <h1 class="title-text">Socail</h1>
+              <h1 class="title-text">Social</h1>
             </div>
             <img class="img-card" src="../assets/kidsinafica1.jpg">
           </li>
