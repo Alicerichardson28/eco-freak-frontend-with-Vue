@@ -7,9 +7,15 @@
         <p class="content">October is National Work & Family Month, when businesses, academic institutions, federal agencies, members of Congress, work-life advocacy groups, and individuals collectively raise awareness about making it easier for employees to succeed at work and at home. We know a simple and extremely effective solution: Go green! As it turns out, going green has plenty of benefits for more than just the planet. Research shows that green buildings have a hugely positive impact on the health (mental and physical) of the lucky people who live and work there. Going green means improving indoor <a href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, and using <a href="https://elemental.green/?s=eco-friendly+materials">eco-friendly materials</a> — all of which contribute to your happiness, health, and productivity. </p>
       <div class="card-container">
         <ul class="card">
-          <li class="list-card">Nature</li>
-          <li class="list-card">Technology</li>
-          <li class="list-card">Social</li>
+          <li class="list-card">
+            <img class="img-nature" src="../assets/nature1.jpeg">
+          </li>
+          <li class="list-card">
+            <img class="img-nature" src="../assets/solarcell6.jpg">
+          </li>
+          <li class="list-card">
+            <img class="img-nature" src="../assets/kidsinafica1.jpg">
+          </li>
         </ul>
       </div>
       </div>
@@ -68,9 +74,7 @@
  
     width: 1500px;
     height: 500px;
-    margin-top: 10em;
-    
-    
+    margin-top: 10em; 
   }
   .card {
     width: 150%;
@@ -81,10 +85,18 @@
   }
   .list-card {
     align-items: center;
-    width: 200px;
+    width: 230px;
     height: 300px;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(246, 250, 246);
+    box-shadow: 0 6px 15px 6px rgb(92, 90, 90);
+    border-radius: 25px;
+  }
+  .img-nature {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    border-radius: 25px;
   }
 </style>
 
