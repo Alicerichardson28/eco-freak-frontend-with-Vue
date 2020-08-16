@@ -8,13 +8,22 @@
       <div class="card-container">
         <ul class="card">
           <li class="list-card">
-            <img class="img-nature" src="../assets/nature1.jpeg">
+            <div class="title-container">
+              <h1 class="title-text">Nature</h1>
+            </div>
+            <img class="img-card" src="../assets/nature1.jpeg">
           </li>
           <li class="list-card">
-            <img class="img-nature" src="../assets/solarcell6.jpg">
+            <div class="title-container">
+              <h1 class="title-text">Technology</h1>
+            </div>
+            <img class="img-card" src="../assets/solarcell6.jpg">
           </li>
           <li class="list-card">
-            <img class="img-nature" src="../assets/kidsinafica1.jpg">
+            <div class="title-container">
+              <h1 class="title-text">Socail</h1>
+            </div>
+            <img class="img-card" src="../assets/kidsinafica1.jpg">
           </li>
         </ul>
       </div>
@@ -88,16 +97,27 @@
     width: 230px;
     height: 300px;
     margin: 0 auto;
-    background-color: rgb(246, 250, 246);
-    box-shadow: 0 6px 15px 6px rgb(92, 90, 90);
+    background-color: #f6faf6;
+    box-shadow: 0 5px 15px 6px rgb(156, 156, 156);
     border-radius: 25px;
   }
-  .img-nature {
+  .img-card {
     width: 100%;
     height: 100%;
-    opacity: 0.8;
     border-radius: 25px;
   }
+  .title-container {
+    position: relative;
+    color: white;
+  }
+  .title-text {
+    position: absolute; 
+    top: 40px; 
+    left: 0; 
+    width: 100%; 
+  }
+
+
 </style>
 
 
