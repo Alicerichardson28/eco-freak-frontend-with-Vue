@@ -5,28 +5,35 @@
         <p class="paragrah-container"> A lot of people are daunted by the idea of <strong>“going green”</strong> as it may seem like one would need to make sweeping lifestyle changes to be able to make a difference. Fortunately, that’s not the case.</p>
         <h3 class="content-header">Want To Be Happier, Healthier, And More Productive? Go Green.</h3>  
         <p class="content">October is National Work & Family Month, when businesses, academic institutions, federal agencies, members of Congress, work-life advocacy groups, and individuals collectively raise awareness about making it easier for employees to succeed at work and at home. We know a simple and extremely effective solution: Go green! As it turns out, going green has plenty of benefits for more than just the planet. Research shows that green buildings have a hugely positive impact on the health (mental and physical) of the lucky people who live and work there. Going green means improving indoor <a href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, and using <a href="https://elemental.green/?s=eco-friendly+materials">eco-friendly materials</a> — all of which contribute to your happiness, health, and productivity. </p>
-      <div class="card-container">
-        <ul class="card">
-          <li class="list-card">
-            <div class="title-container">
-              <h1 class="title-text">Nature</h1>
-            </div>
-            <img class="img-card" src="../assets/nature1.jpeg">
-          </li>
-          <li class="list-card">
-            <div class="title-container">
-              <h1 class="title-text">Technology</h1>
-            </div>
-            <img class="img-card" src="../assets/solarcell6.jpg">
-          </li>
-          <li class="list-card">
-            <div class="title-container">
-              <h1 class="title-text">Social</h1>
-            </div>
-            <img class="img-card" src="../assets/kidsinafica1.jpg">
-          </li>
-        </ul>
-      </div>
+      
+        <div id="second-container">
+          <p class="text-three-solutions">Three unbeatable solutions
+              you back the most crucial solutions for our climate. Let’s revive ecosystems, 
+              push green innovation, and support communities.
+          </p>
+          <div class="card-container">
+            <ul class="card">
+              <li class="list-card">
+                <div class="title-container">
+                  <h1 class="title-text">Nature</h1>
+                </div>
+                <img class="img-card" src="../assets/nature1.jpeg">
+              </li>
+              <li class="list-card">
+                <div class="title-container">
+                  <h1 class="title-text">Technology</h1>
+                </div>
+                <img class="img-card" src="../assets/solarcell6.jpg">
+              </li>
+              <li class="list-card">
+                <div class="title-container">
+                  <h1 class="title-text">Social</h1>
+                </div>
+                <img class="img-card" src="../assets/kidsinafica1.jpg">
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       <div class="image-container"> 
         <img class="img-header" alt="leaf-header" src="../assets/leaf2.jpg">
@@ -45,7 +52,8 @@
 </script>
 
 <style scoped>
-  .home-container {
+
+  .home-container{
     display: flex;
     flex-direction: row;
     margin-left: 10em;
@@ -101,7 +109,7 @@
     box-shadow: 0 5px 15px 6px rgb(156, 156, 156);
     border-radius: 25px;
   }
-  .img-card {
+  .img-card{
     width: 100%;
     height: 100%;
     border-radius: 25px;
@@ -112,12 +120,19 @@
   }
   .title-text {
     position: absolute; 
-    top: 40px; 
+    top: 30px; 
     left: 0; 
     width: 100%; 
+    opacity: unset;
   }
-
-
+  .text-three-solutions{
+    margin-top: 10em;
+  }
+  .second-container{
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    width: 400%;
+  }
 </style>
 
 
