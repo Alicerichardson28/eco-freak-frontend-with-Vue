@@ -3,10 +3,11 @@
       <div class="first-container">
         <h1 class="header">HOW TO GO GREEN</h1>
         <p class="paragrah-container"> A lot of people are daunted by the idea of <strong>“going green”</strong> as it may seem like one would need to make sweeping lifestyle changes to be able to make a difference. Fortunately, that’s not the case.</p>
-        <h3 class="content-header">Want To Be Happier, Healthier, And More Productive? Go Green.</h3>  
-        <p class="content">October is National Work & Family Month, when businesses, academic institutions, federal agencies, members of Congress, work-life advocacy groups, and individuals collectively raise awareness about making it easier for employees to succeed at work and at home. We know a simple and extremely effective solution: Go green! As it turns out, going green has plenty of benefits for more than just the planet. Research shows that green buildings have a hugely positive impact on the health (mental and physical) of the lucky people who live and work there. Going green means improving indoor <a href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, and using <a href="https://elemental.green/?s=eco-friendly+materials">eco-friendly materials</a> — all of which contribute to your happiness, health, and productivity. </p>
-      
-        <div id="second-container">
+        <div class="second-container">
+          <h3 class="content-header">Want To Be Happier, Healthier, And More Productive? Go Green.</h3>  
+          <p class="content">October is National Work & Family Month, when businesses, academic institutions, federal agencies, members of Congress, work-life advocacy groups, and individuals collectively raise awareness about making it easier for employees to succeed at work and at home. We know a simple and extremely effective solution: Go green! As it turns out, going green has plenty of benefits for more than just the planet. Research shows that green buildings have a hugely positive impact on the health (mental and physical) of the lucky people who live and work there. Going green means improving indoor <a href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, and using <a href="https://elemental.green/?s=eco-friendly+materials">eco-friendly materials</a> — all of which contribute to your happiness, health, and productivity. </p>
+        </div>
+        <div class="third-container">
           <p class="text-three-solutions">Three unbeatable solutions
               you back the most crucial solutions for our climate. Let’s revive ecosystems, 
               push green innovation, and support communities.
@@ -56,17 +57,20 @@
   .home-container{
     display: flex;
     flex-direction: row;
-    margin-left: 10em;
   }
   .first-container {
     width: 25%;
-    margin-top: 10em;
+    margin-top: 10em; 
   }
   .header {
+    width: 80%;
     text-align: left;
+    margin: 0;
+    margin-left: 5em;
   }
   .paragrah-container {
     text-align: left;
+    margin-left: 10em;
   }
   .img-header {
     margin-left: 30em;
@@ -88,10 +92,12 @@
   }
   .card-container {
     display: flex;
+    justify-content: space-evenly;
  
     width: 1500px;
     height: 500px;
     margin-top: 10em; 
+    padding-left: 0;
   }
   .card {
     width: 150%;
@@ -128,9 +134,11 @@
   .text-three-solutions{
     margin-top: 10em;
   }
-  .second-container{
+  .second-container {
+    width: 400%;
+  }
+  .third-container{
     background-color: rgb(241, 241, 241);
-    margin: 0;
     width: 400%;
   }
 </style>
