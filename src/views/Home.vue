@@ -1,10 +1,10 @@
 <template>
   <div class="home-container">  
-      <div class="first-container">
+      <div class="first-content-container">
         <h1 class="header">HOW TO GO GREEN</h1>
         <br>
         <p class="paragrah-container"> A lot of people are daunted by the idea of <strong>“going green”</strong> as it may seem like one would need to make sweeping lifestyle changes to be able to make a difference. Fortunately, that’s not the case.</p>
-        <div class="second-container">
+        <div class="second-content-container">
           <h1 class="content-header">Want To Be Happier, Healthier, And More Productive? <br> Go Green.</h1>  
           <br>
           <p class="content">
@@ -17,10 +17,13 @@
           live and work there.Going green means improving indoor <a href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, <br> 
           and using <a href="https://elemental.green/?s=eco-friendly+materials">eco-friendly materials</a> — all of which contribute to your happiness,health, and productivity. </p>
         </div>
-        <div class="third-container">
-          <p class="text-three-solutions">Three unbeatable solutions
-              you back the most crucial solutions for our climate. Let’s revive ecosystems, 
-              push green innovation, and support communities.
+        <div class="third-content-container">
+        <br>
+        <br>
+          <h1 class="three-solutions">Three unbeatable solutions</h1>
+          <p class="content-three-solutions">
+              you back the most crucial solutions for our climate. <br>
+              Let’s revive ecosystems, push green innovation, and support communities.
           </p>
           <div class="card-container">
             <ul class="card">
@@ -106,14 +109,16 @@
     border-collapse: collapse;
     border-spacing: 0;
   }
-
+  strong {
+    font-weight: bold;
+  }
 
 
   .home-container{
     display: flex;
     flex-direction: row;
   }
-  .first-container {
+  .first-content-container {
     width: 25%;
     margin-top: 10em; 
   }
@@ -188,16 +193,24 @@
     width: 100%; 
     opacity: unset;
   }
-  .text-three-solutions{
+  .second-content-container {
+    width: 400%;
+  }
+  .three-solutions{
+    font-size: 250%;
+    font-weight: 900;
+  }
+  .content-three-solutions {
+    font-size: 150%;
+    font-weight: 500;
+    color: rgb(107, 107, 107);
+  }
+  .third-content-container{
+    background-color: #f3f3f3;
+    width: 400%;
     margin-top: 10em;
   }
-  .second-container {
-    width: 400%;
-  }
-  .third-container{
-    background-color: rgb(241, 241, 241);
-    width: 400%;
-  }
+  
 </style>
 
 
