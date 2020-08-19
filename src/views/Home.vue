@@ -28,7 +28,7 @@
           </p>
         </div>
         <div class="third-content-container">
-        <br><br><br><br>
+          <br><br><br><br>
           <h1 class="three-solutions">Three unbeatable solutions</h1>
           <p class="content-three-solutions">
               you back the most crucial solutions for our climate. Let’s revive ecosystems, <br> push green innovation, and support communities.
@@ -56,12 +56,27 @@
             </ul>
           </v-card>
         </div>
+        <div class="forth-content-container">
+          <h1 class="company-topic"> 
+            10 Top Companies That are "Going Green" <br> in 2020
+          </h1>
+          <br>
+          <p class="company-content">
+            Companies are therefore seeking more innovative methods of <br> 
+            promoting eco-friendly environments by integrating green <br> 
+            practices in their business functions. The following are the <br>
+            top companies that are taking the lead in incorporating eco-friendly <br> 
+            practices by going green.
+          </p>
+        </div>
       </div>
       <div class="image-container"> 
         <img class="img-header" alt="leaf-header" src="../assets/leaf2.jpg">
       </div>
   </div>  
 </template>
+
+
 
 <script>
   // import SecondHome from '../views/SecondHome'
@@ -72,6 +87,10 @@
   //   }
   // }
 </script>
+
+
+
+
 <style scoped>
   @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400&family=Josefin+Sans:ital,wght@0,200;1,500;1,700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400&family=Josefin+Sans:ital,wght@0,200;0,400;1,500&display=swap');
@@ -142,7 +161,6 @@
     text-align: left;
     margin-left: 10em;
     width: 80%;
-    
     font-family: 'Josefin Sans', sans-serif;
   }
   .img-header {
@@ -152,6 +170,9 @@
   }
   .image-container {  
     height: 40%;
+  }
+  .second-content-container {
+    width: 400%;
   }
   .content-header {
     margin-top: 15em;
@@ -166,7 +187,12 @@
     margin-left: 30em;
     font-family: 'Josefin Sans', sans-serif;
   }
- 
+  .third-content-container{
+    background-color: #f3f3f3;
+    width: 400%;
+    margin-top: 10em;
+    list-style: none
+  }
   ul {
     display: flex;
     justify-content:space-between;
@@ -211,9 +237,6 @@
     font-family: 'Josefin Sans', sans-serif;
     color: white;
   }
-  .second-content-container {
-    width: 400%;
-  }
   .three-solutions{
     font-size: 300%;
     font-weight: 700;
@@ -225,11 +248,22 @@
     color: rgb(107, 107, 107);
     font-family: 'Josefin Sans', sans-serif;
   }
-  .third-content-container{
-    background-color: #f3f3f3;
-    width: 400%;
-    margin-top: 10em;
-    list-style: none
+  .forth-content-container {
+    width: 100%;
+  }
+  .company-topic {
+    text-align: left;
+    margin-top: 5em;
+    font-weight: 700;
+    font-size: 150%;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 26.5em;
+    width: 200%;
+  }
+  .company-content {
+    text-align: left;
+    margin-left: 40em;
+    width: 120%;
   }
 
   
@@ -237,3 +271,5 @@
 
 
 
+
+       
