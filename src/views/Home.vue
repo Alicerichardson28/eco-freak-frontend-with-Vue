@@ -2,10 +2,20 @@
   <div class="home-container">  
       <div class="first-container">
         <h1 class="header">HOW TO GO GREEN</h1>
+        <br>
         <p class="paragrah-container"> A lot of people are daunted by the idea of <strong>“going green”</strong> as it may seem like one would need to make sweeping lifestyle changes to be able to make a difference. Fortunately, that’s not the case.</p>
         <div class="second-container">
-          <h3 class="content-header">Want To Be Happier, Healthier, And More Productive? Go Green.</h3>  
-          <p class="content">October is National Work & Family Month, when businesses, academic institutions, federal agencies, members of Congress, work-life advocacy groups, and individuals collectively raise awareness about making it easier for employees to succeed at work and at home. We know a simple and extremely effective solution: Go green! As it turns out, going green has plenty of benefits for more than just the planet. Research shows that green buildings have a hugely positive impact on the health (mental and physical) of the lucky people who live and work there. Going green means improving indoor <a href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, and using <a href="https://elemental.green/?s=eco-friendly+materials">eco-friendly materials</a> — all of which contribute to your happiness, health, and productivity. </p>
+          <h1 class="content-header">Want To Be Happier, Healthier, And More Productive? Go Green.</h1>  
+          <br>
+          <p class="content">
+          October is National Work & Family Month, when businesses, academic institutions, <br> 
+          federal agencies, members of Congress,work-life advocacy groups, and individuals collectively <br>
+          raise awareness about making it easier for employees to succeed at work and at home. <br> 
+          We know a simple and extremely effective solution: Go green! As it turns out, going green <br> 
+          has plenty of benefits for more than just the planet.Research shows that green buildings <br>
+          have a hugely positive impact on the health (mental and physical) of the lucky people who <br>
+          live and work there.Going green means improving indoor <a href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, <br> 
+          and using <a href="https://elemental.green/?s=eco-friendly+materials">eco-friendly materials</a> — all of which contribute to your happiness,health, and productivity. </p>
         </div>
         <div class="third-container">
           <p class="text-three-solutions">Three unbeatable solutions
@@ -53,6 +63,51 @@
 </script>
 
 <style scoped>
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+
 
   .home-container{
     display: flex;
@@ -66,7 +121,8 @@
     width: 80%;
     text-align: left;
     margin: 0;
-    margin-left: 5em;
+    margin-left: 10em;
+    font-weight: bold;
   }
   .paragrah-container {
     text-align: left;
@@ -81,23 +137,21 @@
     height: 40%;
   }
   .content-header {
-    width: 50em;
     margin-top: 15em;
-    margin-left: 13em;
+    font-weight: bold;
+    margin-left: 1.5em;
   }
   .content{
-    width: 50em;
-    margin-left: 20em;
     text-align: left;
+    margin-left: 36em;
   }
   .card-container {
     display: flex;
     justify-content: space-evenly;
  
-    width: 1500px;
+    width: 1600px;
     height: 500px;
     margin-top: 10em; 
-    padding-left: 0;
   }
   .card {
     width: 150%;
