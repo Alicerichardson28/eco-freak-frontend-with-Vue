@@ -1,6 +1,3 @@
-
-
-
 <template>
   <div class="home-container">  
       <div class="first-content-container">
@@ -68,7 +65,9 @@
             top companies that are taking the lead in incorporating eco-friendly <br> 
             practices by going green.
           </p>
+          <img class="img-company-logo" src="../assets/logo.jpg">
         </div>
+        <hr>
       </div>
       <div class="image-container"> 
         <img class="img-header" alt="leaf-header" src="../assets/leaf2.jpg">
@@ -232,7 +231,7 @@
     top: 30px; 
     left: 0; 
     width: 100%;
-    font-size: 220%;
+    font-size: 200%;
     font-weight: 700; 
     font-family: 'Josefin Sans', sans-serif;
     color: white;
@@ -264,6 +263,18 @@
     text-align: left;
     margin-left: 40em;
     width: 120%;
+  }
+  .img-company-logo {
+    margin-top: 3em;
+    width: 200%;
+    margin-left: 30em;
+  }
+  hr {
+    border-top: 1px solid lightgray;
+    width: 1200px; 
+    margin-left:50% !important; 
+    margin-right:25% !important;
+    margin-bottom: 20em;
   }
 
   
