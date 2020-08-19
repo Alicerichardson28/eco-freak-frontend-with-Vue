@@ -3,27 +3,33 @@
       <div class="first-content-container">
         <h1 class="header">HOW TO GO GREEN</h1>
         <br>
-        <p class="paragrah-container"> A lot of people are daunted by the idea of <strong>“going green”</strong> as it may seem like one would need to make sweeping lifestyle changes to be able to make a difference. Fortunately, that’s not the case.</p>
+        <p class="paragrah-container"> 
+        A lot of people are daunted by the idea of<br><br> 
+          <strong>“going green”</strong> as it may seem like one would <br><br> 
+          need to make sweeping lifestyle changes to <br><br>  
+          be able to make a difference. Fortunately, <br><br> 
+          that’s not the case.
+        </p>
         <div class="second-content-container">
           <h1 class="content-header">Want To Be Happier, Healthier, And More Productive? <br> Go Green.</h1>  
           <br>
           <p class="content">
-          October is National Work & Family Month, when businesses, academic institutions, <br> 
-          federal agencies, members of Congress,work-life advocacy groups, and individuals collectively <br>
-          raise awareness about making it easier for employees to succeed at work and at home. <br> 
-          We know a simple and extremely effective solution: Go green! As it turns out, going green <br> 
-          has plenty of benefits for more than just the planet.Research shows that green buildings <br>
-          have a hugely positive impact on the health (mental and physical) of the lucky people who <br>
-          live and work there.Going green means improving indoor <a href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, <br> 
-          and using <a href="https://elemental.green/?s=eco-friendly+materials">eco-friendly materials</a> — all of which contribute to your happiness,health, and productivity. </p>
+            October is National Work & Family Month, when businesses, academic institutions, <br><br>
+            federal agencies, members of Congress,work-life advocacy groups, and individuals collectively <br><br>
+            raise awareness about making it easier for employees to succeed at work and at home. <br><br>
+            We know a simple and extremely effective solution: Go green! As it turns out, going green <br><br>
+            has plenty of benefits for more than just the planet.Research shows that green buildings <br><br>
+            have a hugely positive impact on the health (mental and physical) of the lucky people who <br><br>
+            live and work there.Going green means improving indoor <a href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, <br><br> 
+            and using <a href="https://elemental.green/?s=eco-friendly+materials">eco-friendly materials</a> — all of which contribute to your happiness,health, and productivity. 
+          </p>
         </div>
         <div class="third-content-container">
-        <br>
-        <br>
+        <br><br><br><br><br><br><br>
           <h1 class="three-solutions">Three unbeatable solutions</h1>
+          <br><br>
           <p class="content-three-solutions">
-              you back the most crucial solutions for our climate. <br>
-              Let’s revive ecosystems, push green innovation, and support communities.
+              you back the most crucial solutions for our climate. Let’s revive ecosystems, <br><br> push green innovation, and support communities.
           </p>
           <div class="card-container">
             <ul class="card">
@@ -64,8 +70,9 @@
   //   }
   // }
 </script>
-
 <style scoped>
+  @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400&family=Josefin+Sans:ital,wght@0,200;1,500;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400&family=Josefin+Sans:ital,wght@0,200;0,400;1,500&display=swap');
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -126,13 +133,16 @@
     width: 80%;
     text-align: left;
     margin-left: 6.5em;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 150%;
+    font-family: 'Josefin Sans', sans-serif;
   }
   .paragrah-container {
     text-align: left;
     margin-left: 10em;
     width: 80%;
+    
+    font-family: 'Josefin Sans', sans-serif;
   }
   .img-header {
     margin-left: 30em;
@@ -144,14 +154,16 @@
   }
   .content-header {
     margin-top: 15em;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 150%;
     text-align: left;
     margin-left: 20em;
+    font-family: 'Josefin Sans', sans-serif;
   }
   .content{
     text-align: left;
     margin-left: 30em;
+    font-family: 'Josefin Sans', sans-serif;
   }
   .card-container {
     display: flex;
@@ -190,20 +202,23 @@
     position: absolute; 
     top: 30px; 
     left: 0; 
-    width: 100%; 
-    opacity: unset;
+    width: 100%;
+    font-size: 200%;
+    font-weight: 900; 
   }
   .second-content-container {
     width: 400%;
   }
   .three-solutions{
-    font-size: 250%;
-    font-weight: 900;
+    font-size: 300%;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
   }
   .content-three-solutions {
     font-size: 150%;
     font-weight: 500;
     color: rgb(107, 107, 107);
+    font-family: 'Josefin Sans', sans-serif;
   }
   .third-content-container{
     background-color: #f3f3f3;
