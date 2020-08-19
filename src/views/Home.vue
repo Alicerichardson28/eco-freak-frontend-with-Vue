@@ -1,38 +1,39 @@
+
+
+
 <template>
   <div class="home-container">  
       <div class="first-content-container">
         <h1 class="header">HOW TO GO GREEN</h1>
         <br>
         <p class="paragrah-container"> 
-        A lot of people are daunted by the idea of<br><br> 
-          <strong>“going green”</strong> as it may seem like one would <br><br> 
-          need to make sweeping lifestyle changes to <br><br>  
-          be able to make a difference. Fortunately, <br><br> 
+        A lot of people are daunted by the idea of
+          <strong>“going green”</strong> as it may seem like one would 
+          need to make sweeping lifestyle changes to  
+          be able to make a difference. Fortunately, 
           that’s not the case.
         </p>
         <div class="second-content-container">
           <h1 class="content-header">Want To Be Happier, Healthier, And More Productive? <br> Go Green.</h1>  
           <br>
           <p class="content">
-            October is National Work & Family Month, when businesses, academic institutions, <br><br>
-            federal agencies, members of Congress,work-life advocacy groups, and individuals collectively <br><br>
-            raise awareness about making it easier for employees to succeed at work and at home. <br><br>
-            We know a simple and extremely effective solution: Go green! As it turns out, going green <br><br>
-            has plenty of benefits for more than just the planet.Research shows that green buildings <br><br>
-            have a hugely positive impact on the health (mental and physical) of the lucky people who <br><br>
-            live and work there.Going green means improving indoor <a href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, <br><br> 
+            October is National Work & Family Month, when businesses, academic institutions, <br>
+            federal agencies, members of Congress,work-life advocacy groups, and individuals collectively <br>
+            raise awareness about making it easier for employees to succeed at work and at home. <br>
+            We know a simple and extremely effective solution: Go green! As it turns out, going green <br>
+            has plenty of benefits for more than just the planet.Research shows that green buildings <br>
+            have a hugely positive impact on the health (mental and physical) of the lucky people who <br>
+            live and work there.Going green means improving indoor <a href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, <br>
             and using <a href="https://elemental.green/?s=eco-friendly+materials">eco-friendly materials</a> — all of which contribute to your happiness,health, and productivity. 
           </p>
         </div>
         <div class="third-content-container">
-        <br><br><br><br><br><br><br>
           <h1 class="three-solutions">Three unbeatable solutions</h1>
-          <br><br>
           <p class="content-three-solutions">
-              you back the most crucial solutions for our climate. Let’s revive ecosystems, <br><br> push green innovation, and support communities.
+              you back the most crucial solutions for our climate. Let’s revive ecosystems, <br> push green innovation, and support communities.
           </p>
-          <div class="card-container">
-            <ul class="card">
+          <div id="card-container">
+            <ul class="bg-transparent">
               <li class="list-card">
                 <div class="title-container">
                   <h1 class="title-text">Nature</h1>
@@ -120,7 +121,6 @@
     font-weight: bold;
   }
 
-
   .home-container{
     display: flex;
     flex-direction: row;
@@ -165,18 +165,19 @@
     margin-left: 30em;
     font-family: 'Josefin Sans', sans-serif;
   }
-  .card-container {
+  ul {
     display: flex;
     justify-content: space-evenly;
- 
     width: 1600px;
     height: 500px;
     margin-top: 10em; 
+    background-color: transparent;
   }
   .card {
     width: 150%;
     display: flex;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-items: center;
     list-style-type:none;
     grid-gap: 10px;
   }
@@ -185,7 +186,6 @@
     width: 230px;
     height: 300px;
     margin: 0 auto;
-    background-color: #f6faf6;
     box-shadow: 0 5px 15px 6px rgb(156, 156, 156);
     border-radius: 25px;
   }
@@ -204,7 +204,8 @@
     left: 0; 
     width: 100%;
     font-size: 200%;
-    font-weight: 900; 
+    font-weight: 700; 
+    font-family: 'Josefin Sans', sans-serif;
   }
   .second-content-container {
     width: 400%;
@@ -224,7 +225,9 @@
     background-color: #f3f3f3;
     width: 400%;
     margin-top: 10em;
+    list-style: none
   }
+
   
 </style>
 
