@@ -59,6 +59,10 @@ hr {
   flex-direction: row;
   width: 20%;
 }
+
+.logo-title {
+  margin-top: 1rem;
+}
 </style>
 
 

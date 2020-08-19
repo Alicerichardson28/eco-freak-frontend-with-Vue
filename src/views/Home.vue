@@ -28,11 +28,12 @@
           </p>
         </div>
         <div class="third-content-container">
+        <br><br><br><br>
           <h1 class="three-solutions">Three unbeatable solutions</h1>
           <p class="content-three-solutions">
               you back the most crucial solutions for our climate. Let’s revive ecosystems, <br> push green innovation, and support communities.
           </p>
-          <div id="card-container">
+          <v-card id="card-container">
             <ul class="bg-transparent">
               <li class="list-card">
                 <div class="title-container">
@@ -53,7 +54,7 @@
                 <img class="img-card" src="../assets/kidsinafica1.jpg">
               </li>
             </ul>
-          </div>
+          </v-card>
         </div>
       </div>
       <div class="image-container"> 
@@ -165,13 +166,15 @@
     margin-left: 30em;
     font-family: 'Josefin Sans', sans-serif;
   }
+ 
   ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-between;
     width: 1600px;
     height: 500px;
     margin-top: 10em; 
-    background-color: transparent;
+    margin-right: 0;
+    
   }
   .card {
     width: 150%;
@@ -188,6 +191,7 @@
     margin: 0 auto;
     box-shadow: 0 5px 15px 6px rgb(156, 156, 156);
     border-radius: 25px;
+    opacity: 0.8;
   }
   .img-card{
     width: 100%;
