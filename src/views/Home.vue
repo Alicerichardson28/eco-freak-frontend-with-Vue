@@ -68,6 +68,15 @@
           <img class="img-company-logo" src="../assets/logo.jpg">
         </div>
         <hr>
+        <div class="footer-container">
+          <h1 class="footer-app-name">Ecofreak</h1>
+          <div class="footer-navbar">
+            <router-link to="/">Home</router-link> 
+            <router-link to="/about">About</router-link> 
+            <router-link to="/document">Docs</router-link> 
+            <router-link to="/blog">Blog</router-link>
+          </div>
+        </div>
       </div>
       <div class="image-container"> 
         <img class="img-header" alt="leaf-header" src="../assets/leaf2.jpg">
@@ -198,8 +207,7 @@
     width: 1600px;
     height: 500px;
     margin-top: 10em; 
-    margin-right: 0;
-    
+    margin-right: 0;  
   }
   .card {
     width: 150%;
@@ -271,12 +279,27 @@
   }
   hr {
     border-top: 1px solid lightgray;
-    width: 1200px; 
-    margin-left:50% !important; 
-    margin-right:25% !important;
-    margin-bottom: 20em;
+    width: 1300px; 
+    margin-left:35% !important; 
+    margin-right:20% !important;
+    margin-bottom: 2em;
   }
 
+  .footer-app-name{
+    font-weight: 700;
+    font-size: 150%;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 2em;
+  }
+  .footer-navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 200%;
+    height: 100%;
+    margin-left:80% !important; 
+    margin-right:20% !important;
+    margin-bottom: 5em;
+  }
   
 </style>
 
