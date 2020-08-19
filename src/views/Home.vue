@@ -5,7 +5,7 @@
         <br>
         <p class="paragrah-container"> A lot of people are daunted by the idea of <strong>“going green”</strong> as it may seem like one would need to make sweeping lifestyle changes to be able to make a difference. Fortunately, that’s not the case.</p>
         <div class="second-container">
-          <h1 class="content-header">Want To Be Happier, Healthier, And More Productive? Go Green.</h1>  
+          <h1 class="content-header">Want To Be Happier, Healthier, And More Productive? <br> Go Green.</h1>  
           <br>
           <p class="content">
           October is National Work & Family Month, when businesses, academic institutions, <br> 
@@ -120,13 +120,14 @@
   .header {
     width: 80%;
     text-align: left;
-    margin: 0;
-    margin-left: 10em;
-    font-weight: bold;
+    margin-left: 6.5em;
+    font-weight: 900;
+    font-size: 150%;
   }
   .paragrah-container {
     text-align: left;
     margin-left: 10em;
+    width: 80%;
   }
   .img-header {
     margin-left: 30em;
@@ -138,12 +139,14 @@
   }
   .content-header {
     margin-top: 15em;
-    font-weight: bold;
-    margin-left: 1.5em;
+    font-weight: 900;
+    font-size: 150%;
+    text-align: left;
+    margin-left: 20em;
   }
   .content{
     text-align: left;
-    margin-left: 36em;
+    margin-left: 30em;
   }
   .card-container {
     display: flex;
