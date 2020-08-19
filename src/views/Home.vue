@@ -51,7 +51,7 @@
                 <div class="title-container">
                   <h1 class="title-text">Social</h1>
                 </div>
-                <img class="img-card" src="../assets/kidsinafica1.jpg">
+                <img class="img-card" src="../assets/kidsinafrica4.jpg">
               </li>
             </ul>
           </v-card>
@@ -191,7 +191,7 @@
     margin: 0 auto;
     box-shadow: 0 5px 15px 6px rgb(156, 156, 156);
     border-radius: 25px;
-    opacity: 0.8;
+    opacity: 0.9;
   }
   .img-card{
     width: 100%;
@@ -200,16 +200,16 @@
   }
   .title-container {
     position: relative;
-    color: white;
   }
   .title-text {
     position: absolute; 
     top: 30px; 
     left: 0; 
     width: 100%;
-    font-size: 200%;
+    font-size: 220%;
     font-weight: 700; 
     font-family: 'Josefin Sans', sans-serif;
+    color: white;
   }
   .second-content-container {
     width: 400%;
