@@ -7,7 +7,7 @@
       </div>
       <router-link to="/">Home</router-link> 
       <router-link to="/about">About</router-link> 
-      <router-link to="/document">Docs</router-link> 
+      <router-link to="/product">Product</router-link> 
       <router-link to="/blog">Blog</router-link>
     </div>
     <hr>
@@ -37,7 +37,7 @@
   a {
     font-weight: bold;
     color: #2c3e50;
-    margin-top: 17px;
+    margin-top: 22px;
     text-decoration: none;
 
     &.router-link-exact-active {
@@ -61,7 +61,7 @@ hr {
 }
 
 .logo-title {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 </style>
 
