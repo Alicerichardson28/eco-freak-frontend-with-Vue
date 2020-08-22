@@ -1,7 +1,13 @@
 <template>
-    <div class="first-container">
-        <h1>Hello</h1>
-    </div>   
+    <div>
+        <div class="first-container">
+            <br><br><br><br>
+            <h1 class="first-content">Eco-Friendly Products That'll Get You A Little Closer To Saving The Planet</h1>
+        </div> 
+        <div class="second-container"> 
+        </div> 
+    </div> 
+
 </template>
 
 <style lang="scss">
@@ -53,11 +59,25 @@
     strong {
         font-weight: bold;
     }
-    .first-container {
-        background-color:  #42b983;
-        width: 100%;
-        height: 700px;
+
+    hr {
+        margin: 0;
     }
-    
+    .first-container {
+        width: 100%;
+        height: 300px;
+        background-color: #518868;
+    }
+     .second-container {
+        width: 100%;
+        height: 300px;
+        background-color: #8bddad;
+    }
+    .first-content {
+        font-size: 200%;
+        font-weight: 700;
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+    }
 </style>
 
