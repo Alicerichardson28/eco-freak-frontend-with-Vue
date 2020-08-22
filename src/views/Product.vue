@@ -1,11 +1,11 @@
 <template>
     <div>
         <div class="first-container">
-            <br><br><br><br>
-            <h1 class="first-content">Eco-Friendly Products That'll Get You A Little Closer To Saving The Planet</h1>
+            <img class="img-card" src="../assets/turtle1.png">
         </div> 
         <div class="second-container"> 
         </div> 
+            <h1 class="first-content">Eco-Friendly Products That'll Get You A Little Closer To Saving The Planet</h1>
     </div> 
 
 </template>
@@ -66,18 +66,27 @@
     .first-container {
         width: 100%;
         height: 300px;
-        background-color: #518868;
+        background-color: #48996a;
     }
      .second-container {
         width: 100%;
         height: 300px;
-        background-color: #8bddad;
+        background-color: #71a6a7;
     }
     .first-content {
-        font-size: 200%;
+        margin: 2em;
+        font-size: 150%;
         font-weight: 700;
         font-family: 'Josefin Sans', sans-serif;
-        color: white;
+        color: black;
+    }
+
+    .img-card {
+        margin-top: 10em;
+        margin-right: 35em;
+        width: 25%;
+        -webkit-filter: drop-shadow(5px 5px 5px #222 );
+        filter: drop-shadow(5px 5px 5px #222);
     }
 </style>
 
