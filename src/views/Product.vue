@@ -5,7 +5,25 @@
         </div> 
         <div class="second-container"> 
         </div> 
-            <h1 class="first-content">Eco-Friendly Products That'll Get You A Little Closer To Saving The Planet</h1>
+        <div>
+            <h1 class="first-content">Eco-Friendly Products That'll Get <br> You A Little Closer To Saving The Planet</h1>
+        </div>
+        <div class="cards-container">
+            <ul class="cards-ul">
+                <li class="card">Compostable Plates</li>
+                <li class="card">Tree-Free Dinner Napkin</li>
+                <li class="card">Compostable Bowls</li>
+                <li class="card">Hot Cups</li>
+                <li class="card">Compostable Takeout Containers</li>
+                <li class="card">Compostable Tablecloth</li>
+                <li class="card">Compostable Cutleries</li>
+                <li class="card">Compostable PLA Cold Cups</li>
+                <li class="card">Compostable Trash Bag</li>
+                <li class="card">reusable straws</li>
+                <li class="card">paper straws//Pasta straws</li>
+                <li class="card">Tree - Free Bath Tissue</li>
+            </ul>
+        </div>
     </div> 
 
 </template>
@@ -73,6 +91,13 @@
         height: 300px;
         background-color: #71a6a7;
     }
+    .img-card {
+        margin-top: 10em;
+        margin-right: 35em;
+        width: 25%;
+        -webkit-filter: drop-shadow(5px 5px 5px #222 );
+        filter: drop-shadow(5px 5px 5px #222);
+    }
     .first-content {
         margin: 2em;
         font-size: 150%;
@@ -81,12 +106,18 @@
         color: black;
     }
 
-    .img-card {
-        margin-top: 10em;
-        margin-right: 35em;
-        width: 25%;
-        -webkit-filter: drop-shadow(5px 5px 5px #222 );
-        filter: drop-shadow(5px 5px 5px #222);
+    .cards-container {
+        width: 100%;
+    }
+    .cards-ul {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 10px;
+    }
+    .card {
+        width: 200px;
+        height: 300px;
     }
 </style>
 
