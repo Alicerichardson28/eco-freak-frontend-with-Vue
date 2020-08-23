@@ -199,10 +199,10 @@
   ul {
     display: flex;
     justify-content:space-between;
-    width: 1600px;
+    width: 800px;
     height: 500px;
     margin-top: 10em; 
-    margin-right: 0;  
+    margin-left: 27em; 
   }
   .card {
     width: 150%;
@@ -259,18 +259,18 @@
     font-weight: 700;
     font-size: 150%;
     font-family: 'Josefin Sans', sans-serif;
-    margin-left: 26.5em;
+    margin-left: 23em;
     width: 200%;
   }
   .company-content {
     text-align: left;
-    margin-left: 40em;
+    margin-left: 34.5em;
     width: 120%;
   }
   .img-company-logo {
     margin-top: 3em;
-    width: 200%;
-    margin-left: 30em;
+    width: 220%;
+    margin-left: 23em;
   }
   hr {
     border-top: 1px solid lightgray;
