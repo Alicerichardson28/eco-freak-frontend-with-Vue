@@ -71,10 +71,10 @@
         <div class="footer-container">
           <h1 class="footer-app-name">Ecofreak</h1>
           <div class="footer-navbar">
-            <router-link to="/">Home</router-link> 
-            <router-link to="/about">About</router-link> 
-            <router-link to="/product">Product</router-link> 
-            <router-link to="/blog">Blog</router-link>
+            <router-link class="link" to="/">Home</router-link> 
+            <router-link class="link" to="/about">About</router-link> 
+            <router-link class="link" to="/product">Product</router-link> 
+            <router-link class="link" to="/blog">Blog</router-link>
           </div>
         </div>
       </div>
@@ -303,7 +303,21 @@
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 2em;
+
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+
   }
+
+  a {
+    color: #2c3e50;
+  }
+  a:hover, a:active, a:focus {
+    color:#42b983;
+  }
+
+
 </style>
 
 
