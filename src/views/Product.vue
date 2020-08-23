@@ -118,6 +118,8 @@
     .card {
         width: 200px;
         height: 300px;
+        justify-content: flex-end;
+        margin: 0 auto;
     }
 </style>
 
