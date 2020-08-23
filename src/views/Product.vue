@@ -10,18 +10,102 @@
         </div>
         <div class="cards-container">
             <ul class="cards-ul">
-                <li class="card">Compostable Plates</li>
-                <li class="card">Tree-Free Dinner Napkin</li>
-                <li class="card">Compostable Bowls</li>
-                <li class="card">Hot Cups</li>
-                <li class="card">Compostable Takeout Containers</li>
-                <li class="card">Compostable Tablecloth</li>
-                <li class="card">Compostable Cutleries</li>
-                <li class="card">Compostable PLA Cold Cups</li>
-                <li class="card">Compostable Trash Bag</li>
-                <li class="card">reusable straws</li>
-                <li class="card">paper straws//Pasta straws</li>
-                <li class="card">Tree - Free Bath Tissue</li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-plates1.png">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Compostable Plates </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-dinner-napkin.png">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Compostable Bamboo Napkins </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-bowls.jpg">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Compostable Bowls </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-hot-cup.jpeg">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Compostable Hot Cups </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-takeout-container.jpg">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Compostable Takeout Containers </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-tablecloth.jpeg">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Compostable Tablecloth </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-cutleries.png">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Compostable Cutleries </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-cold-cup.jpeg">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Compostable PLA Cold Cups </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/prosuct-trash-bag1.jpeg">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Compostable Trash Bag </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-straws.png">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Bamboo straws </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/paper-straws.jpeg">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Paper straws </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-pasta-straws.png">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Pasta straws </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-cotton-buds.jpeg">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Bamboo Cotton Buds </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-toothbrush.jpeg">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Bamboo toothbrush </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-toilet-paper.jpeg">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> Tree - Free Bath Tissue </h2>
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="product-image" src="../assets/product-market-bag.jpeg">
+                    <div class="product-title-container">
+                        <h2 class="product-title"> market bag </h2>
+                    </div>
+                </li>
             </ul>
         </div>
     </div> 
@@ -116,10 +200,20 @@
         grid-gap: 10px;
     }
     .card {
-        width: 200px;
+        width: 250px;
         height: 300px;
         justify-content: flex-end;
         margin: 0 auto;
+        border-radius: 25px;
+    }
+    .product-image {
+        width: 100%;
+        height: 90%;
+        border-radius: 25px;
+    }
+    .product-title {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 </style>
 
