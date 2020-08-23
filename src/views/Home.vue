@@ -73,7 +73,7 @@
           <div class="footer-navbar">
             <router-link to="/">Home</router-link> 
             <router-link to="/about">About</router-link> 
-            <router-link to="/document">Docs</router-link> 
+            <router-link to="/product">Product</router-link> 
             <router-link to="/blog">Blog</router-link>
           </div>
         </div>
@@ -87,13 +87,7 @@
 
 
 <script>
-  // import SecondHome from '../views/SecondHome'
-  // export default {
-  //   name: 'home',
-  //   components: {
-  //       SecondHome
-  //   }
-  // }
+
 </script>
 
 
@@ -102,6 +96,7 @@
 <style scoped>
   @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400&family=Josefin+Sans:ital,wght@0,200;1,500;1,700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400&family=Josefin+Sans:ital,wght@0,200;0,400;1,500&display=swap');
+  
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -285,22 +280,30 @@
     margin-bottom: 2em;
   }
 
+  .footer-container {
+    margin-top: 12px;
+    height: 52px;
+    margin-left: 10em;
+    width: 90em;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+  }
+
   .footer-app-name{
     font-weight: 700;
     font-size: 150%;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 2em;
   }
+
   .footer-navbar {
+    margin: 0;
+    width:  100em;
     display: flex;
-    justify-content: space-between;
-    width: 200%;
-    height: 100%;
-    margin-left:80% !important; 
-    margin-right:20% !important;
-    margin-bottom: 5em;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
   }
-  
 </style>
 
 

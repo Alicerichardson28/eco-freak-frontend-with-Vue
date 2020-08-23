@@ -3,7 +3,7 @@
     <div id="nav">
       <div class="logo-container">
         <img class="leaf-logo" alt="leaf logo" src="./assets/leaflogo3.png">
-        <h3 class="logo-title">Ecofreak</h3>
+        <router-link class="logo-title" to="/">Ecofreak</router-link> 
       </div>
       <router-link to="/">Home</router-link> 
       <router-link to="/about">About</router-link> 
