@@ -192,6 +192,7 @@
 
     .cards-container {
         width: 100%;
+        margin-bottom: 5em;
     }
     .cards-ul {
         width: 100%;
