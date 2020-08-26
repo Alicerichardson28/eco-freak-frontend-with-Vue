@@ -55,7 +55,7 @@
                     <img class="product-image" src="../assets/product-tablecloth.jpeg">
                     <div class="product-title-container">
                         <h2 class="product-title"> Compostable Tablecloth </h2>
-                        <p class="product-description">These are plates that are made from materials that will degrade quickly and are suitable for composting. </p>
+                        <p class="product-description">compostable tablecovers made of a reusable.these tablecovers are sturdier than traditional plastic tablecovers.  </p>
                         <button class="btn">Read more</button>
                     </div>
                 </li>
@@ -63,7 +63,7 @@
                     <img class="product-image" src="../assets/product-cutleries.png">
                     <div class="product-title-container">
                         <h2 class="product-title"> Compostable Cutleries </h2>
-                        <p class="product-description">These are plates that are made from materials that will degrade quickly and are suitable for composting. </p>
+                        <p class="product-description">NATURAL DISPOSABLE CUTLERY: Instead of getting boxes full of clear plastic cutlery that can hurt our ecosystem.</p>
                         <button class="btn">Read more</button>
                     </div>
                 </li>
@@ -71,7 +71,7 @@
                     <img class="product-image" src="../assets/product-cold-cup.jpeg">
                     <div class="product-title-container">
                         <h2 class="product-title"> Compostable PLA Cold Cups </h2>
-                        <p class="product-description">These are plates that are made from materials that will degrade quickly and are suitable for composting. </p>
+                        <p class="product-description">Compostable PLA plastic cups and lids have no plastic taste because they're made from plants.</p>
                         <button class="btn">Read more</button>
                     </div>
                 </li>
@@ -79,7 +79,7 @@
                     <img class="product-image" src="../assets/prosuct-trash-bag1.jpeg">
                     <div class="product-title-container">
                         <h2 class="product-title"> Compostable Trash Bag </h2>
-                        <p class="product-description">These are plates that are made from materials that will degrade quickly and are suitable for composting. </p>
+                        <p class="product-description">Compostable Bags are made from the starches of plants, without causing damage to the environment. </p>
                         <button class="btn">Read more</button>
                     </div>
                 </li>
@@ -87,7 +87,7 @@
                     <img class="product-image" src="../assets/product-straws.png">
                     <div class="product-title-container">
                         <h2 class="product-title"> Bamboo straws </h2>
-                        <p class="product-description">These are plates that are made from materials that will degrade quickly and are suitable for composting. </p>
+                        <p class="product-description">Bamboo Drinking Straws Reusable 100% natural and Organic Strong & Durable Bamboo Straws, No plastic, no pesticides. </p>
                         <button class="btn">Read more</button>
                     </div>
                 </li>
@@ -95,7 +95,7 @@
                     <img class="product-image" src="../assets/paper-straws.jpeg">
                     <div class="product-title-container">
                         <h2 class="product-title"> Paper straws </h2>
-                        <p class="product-description">These are plates that are made from materials that will degrade quickly and are suitable for composting. </p>
+                        <p class="product-description">Paper straws are marine life-friendly, they'll break down in 6 months, meaning they're safer for wildlife than plastic straws. </p>
                         <button class="btn">Read more</button>
                     </div>
                 </li>
@@ -103,7 +103,7 @@
                     <img class="product-image" src="../assets/product-pasta-straws.png">
                     <div class="product-title-container">
                         <h2 class="product-title"> Pasta straws </h2>
-                        <p class="product-description">These are plates that are made from materials that will degrade quickly and are suitable for composting. </p>
+                        <p class="product-description">Pasta Straws have only two ingredients wheat and water,they are safe for human and animal if consumed accidentally. </p>
                         <button class="btn">Read more</button>
                     </div>
                 </li>
@@ -111,7 +111,7 @@
                     <img class="product-image" src="../assets/product-cotton-buds.jpeg">
                     <div class="product-title-container">
                         <h2 class="product-title"> Bamboo Cotton Buds </h2>
-                        <p class="product-description">These are plates that are made from materials that will degrade quickly and are suitable for composting. </p>
+                        <p class="product-description">Plastic-free bamboo cotton buds can be disposed of by simply throwing them into your organic waste or compost. </p>
                         <button class="btn">Read more</button>
                     </div>
                 </li>
@@ -119,15 +119,15 @@
                     <img class="product-image" src="../assets/product-toothbrush.jpeg">
                     <div class="product-title-container">
                         <h2 class="product-title"> Bamboo toothbrush </h2>
-                        <p class="product-description">These are plates that are made from materials that will degrade quickly and are suitable for composting. </p>
+                        <p class="product-description">Bamboo handle: 100% compostable. This toothbrush is the perfect replacement for plastic toothbrushes. </p>
                         <button class="btn">Read more</button>
                     </div>
                 </li>
                 <li class="card">
                     <img class="product-image" src="../assets/product-toilet-paper.jpeg">
                     <div class="product-title-container">
-                        <h2 class="product-title"> Tree - Free Bath Tissue </h2>
-                        <p class="product-description">These are plates that are made from materials that will degrade quickly and are suitable for composting. </p>
+                        <h2 class="product-title"> Bamboo Bath Tissue </h2>
+                        <p class="product-description">Made from sustainably grown bamboo & sugarcane, both are fast growing grasses giving you a sustainable eco-friendly.</p>
                         <button class="btn">Read more</button>
                     </div>
                 </li>
@@ -135,7 +135,7 @@
                     <img class="product-image" src="../assets/product-market-bag.jpeg">
                     <div class="product-title-container">
                         <h2 class="product-title"> market bag </h2>
-                        <p class="product-description">These are plates that are made from materials that will degrade quickly and are suitable for composting. </p>
+                        <p class="product-description">Reusable produce bags are environmentally friendly and very convenient. They are easy to use and store. </p>
                         <button class="btn">Read more</button>
                     </div>
                 </li>
@@ -145,7 +145,7 @@
 
 </template>
 
-<style lang="scss">
+<style scoped>
     @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400&family=Josefin+Sans:ital,wght@0,200;1,500;1,700&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400&family=Josefin+Sans:ital,wght@0,200;0,400;1,500&display=swap');
     html, body, div, span, applet, object, iframe,
@@ -224,7 +224,7 @@
     }
 
     .cards-container {
-        margin-top: 15em;
+        margin-top: 10em;
         width: 100%;
         margin-bottom: 3em;
     }
@@ -239,10 +239,13 @@
         height: 300px;
         justify-content: flex-end;
         margin: 0 auto;
+         -webkit-filter: drop-shadow(5px 5px 5px #222 );
+        filter: drop-shadow(5px 5px 5px rgb(141, 138, 138));
     }
     .product-image {
         width: 100%;
         height: 90%;
+
     }
     .product-title {
         margin-top: 10px;
