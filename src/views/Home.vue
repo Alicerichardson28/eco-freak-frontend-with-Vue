@@ -53,6 +53,9 @@
             </ul>
           </v-card>
         </div>
+        <template>
+          <mdb-carousel :items="videoCarousel" indicators class="video"></mdb-carousel>
+        </template>
         <div class="forth-content-container">
           <h1 class="company-topic"> 
             10 Top Companies That are "Going Green" <br> in 2020
@@ -87,7 +90,41 @@
 
 
 <script>
-
+  import { mdbCarousel } from "mdbvue";
+  export default {
+    name: "VideoCarouselPage",
+    components: {
+      mdbCarousel
+    },
+    data() {
+      return {
+        videoCarousel: [
+          {
+            video: true,
+            src: "https://mdbootstrap.com/img/video/Tropical.mp4",
+            loop: true,
+            auto: true,
+            muted: true
+          },
+          {
+            video: true,
+            src: "https://mdbootstrap.com/img/video/forest.mp4",
+            mask: "purple-strong",
+            loop: true,
+            auto: true,
+            muted: true
+          },
+          {
+            video: true,
+            src: "https://mdbootstrap.com/img/video/Agua-natural.mp4",
+            loop: true,
+            auto: true,
+            muted: true
+          }
+        ]
+      };
+    }
+  };
 </script>
 
 
@@ -316,7 +353,11 @@
   a:hover, a:active, a:focus {
     color:#42b983;
   }
-
+  
+  .video {
+    width: 400%;
+    height: 1050px;
+  }
 
 </style>
 
