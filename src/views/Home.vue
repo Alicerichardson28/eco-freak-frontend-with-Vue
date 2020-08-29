@@ -54,7 +54,11 @@
           </v-card>
         </div>
         <template>
-          <mdb-carousel :items="videoCarousel" indicators class="video"></mdb-carousel>
+          <mdb-carousel 
+              :items="videoCarousel" indicators 
+              class="video" 
+              thumbnails
+              :interval="4000"></mdb-carousel>
         </template>
         <div class="forth-content-container">
           <h1 class="company-topic"> 
