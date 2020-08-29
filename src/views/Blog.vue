@@ -11,7 +11,7 @@
             <div class="right">
                 <label for="search-bar">
                     <img src="../assets/search-icon.png" class="icon" />
-                    <input type="text" id="search-bar" name="search-bar" placeholder="Type to search..."">
+                    <input type="text" id="search-bar" name="search-bar" placeholder="Type to search...">
                 </label>
             </div>
         </header>
@@ -42,6 +42,8 @@
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
                     <h4>learn to take a break</h4>
                 </div>
+            </div>
+            <div class="bottom">
                 <button class="load">See More</button>
             </div>
         </section>
@@ -140,24 +142,6 @@
 
             margin: 15px;
 
-            .load {
-                    display: block;
-                    width: 100%;
-                    max-width: 180px;
-                    height: 40px;
-                    margin-left: 35em;
-
-                    outline: none;
-                    border: none;
-                    border-radius: 15px;
-                    appearance: none;
-
-                    background-color:  #42b983;
-                    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.2);
-
-                    color: #171717;
-                    font-weight: 500;
-                }
                 
             .post {
                 display: flex;
@@ -194,5 +178,20 @@
             }
         }
     }
- 
+    .load {
+        display: block;
+        width: 100%;
+        max-width: 180px;
+        height: 40px;
+        margin-left: 35em;
+        outline: none;
+        border: none;
+        border-radius: 15px;
+        appearance: none;
+
+        background-color:  #42b983;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.2);
+
+        color: #171717;
+    }
 </style>
