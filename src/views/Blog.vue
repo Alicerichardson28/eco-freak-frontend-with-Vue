@@ -19,21 +19,27 @@
             <h3>Latest Post</h3>
             <div class="posts">
                 <div class="post">
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
                     <h4>Plan Ahead</h4>
                 </div>
                 <div class="post col-2 row-2">
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
                     <h4>VueJS Fundamentals</h4>
                 </div>
                 <div class="post row-2">
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
                     <h4>Alice Richardson</h4>
                 </div>
                 <div class="post row-2">
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>    
                     <h4>Parada Richardson</h4>
                 </div>
                 <div class="post">
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
                     <h4>Learn Vue JS</h4>
                 </div>
                 <div class="post col-2">
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
                     <h4>learn to take a break</h4>
                 </div>
             </div>
@@ -122,6 +128,9 @@
         max-width: 1280px;
         margin: 0 auto;
 
+        h3 {
+            text-align: left;
+        }
         .posts {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -136,6 +145,13 @@
                 
                 background-color: #ffffff;
                 box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.2);
+
+                .image {
+                    flex: 1;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
 
                 h4 {
                     font-size: 10px;
