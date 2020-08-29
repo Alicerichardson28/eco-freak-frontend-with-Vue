@@ -42,6 +42,7 @@
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
                     <h4>learn to take a break</h4>
                 </div>
+                <button class="load">See More</button>
             </div>
         </section>
     </div>
@@ -139,12 +140,32 @@
 
             margin: 15px;
 
+            .load {
+                    display: block;
+                    width: 100%;
+                    max-width: 180px;
+                    height: 40px;
+                    margin-left: 35em;
+
+                    outline: none;
+                    border: none;
+                    border-radius: 15px;
+                    appearance: none;
+
+                    background-color:  #42b983;
+                    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.2);
+
+                    color: #171717;
+                    font-weight: 500;
+                }
+                
             .post {
                 display: flex;
                 flex-direction: column;
                 
                 background-color: #ffffff;
                 box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.2);
+
 
                 .image {
                     flex: 1;
