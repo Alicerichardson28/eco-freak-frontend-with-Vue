@@ -248,11 +248,20 @@
 
     }
     .product-title {
+        font-weight: 500;
         margin-top: 10px;
         margin-bottom: 10px;
+        text-decoration: underline;
     }
     .product-description{
         font-size: 80%;
+    }
+    .btn {
+        font-weight: 500;
+        cursor: pointer;
+        box-shadow: none!important;
+        color: #1ebb5f;
+        text-shadow: 2px 2px 6px #c2c0c0;
     }
 
 </style>

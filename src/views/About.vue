@@ -16,6 +16,13 @@
     data() {
       return {
         thumbnailCarousel: [
+            {
+            img: true,
+            src:
+              "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
+            thumbnail:
+              "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg"
+          },
           {
             img: true,
             src:
@@ -26,16 +33,9 @@
           {
             img: true,
             src:
-              "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
+              "https://mdbootstrap.com/img/Photos/Slides/img%20(16).jpg",
             thumbnail:
-              "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg"
-          },
-          {
-            img: true,
-            src:
-              "https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg",
-            thumbnail:
-              "https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg"
+              "https://mdbootstrap.com/img/Photos/Slides/img%20(16).jpg"
           },
         ]
       };
