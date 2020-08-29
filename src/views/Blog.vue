@@ -52,11 +52,13 @@
 
 
 <style lang="scss">
+       
     header {
         display: flex;
         justify-content: center;
         padding: 50px 50px 25px;
         margin-left: 40em;
+
 
         .center {
             h3 {
@@ -133,6 +135,7 @@
 
         h3 {
             text-align: left;
+            margin-left: 13px;
         }
         .posts {
             display: grid;
