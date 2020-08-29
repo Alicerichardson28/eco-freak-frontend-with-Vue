@@ -48,7 +48,7 @@
                 <div class="title-container">
                   <h1 class="title-text">Social</h1>
                 </div>
-                <img class="img-card" src="../assets/kidsinafrica4.jpg">
+                <img class="img-card" src="../assets/africankids1.jpg">
               </li>
             </ul>
           </v-card>
