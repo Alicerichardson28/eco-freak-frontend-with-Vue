@@ -239,7 +239,7 @@
     width: 800px;
     height: 500px;
     margin-top: 10em; 
-    margin-left: 27em; 
+    margin-left: 30em; 
   }
   .card {
     width: 150%;
@@ -272,9 +272,15 @@
     left: 0; 
     width: 100%;
     font-size: 200%;
-    font-weight: 700; 
+    font-weight: 500; 
     font-family: 'Josefin Sans', sans-serif;
     color: white;
+    text-shadow: 2px 2px 3px #cfcfcf;
+
+
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #24f0a2;
   }
   .three-solutions{
     font-size: 300%;
