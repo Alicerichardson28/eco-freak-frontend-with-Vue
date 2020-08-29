@@ -296,18 +296,18 @@
     font-weight: 700;
     font-size: 150%;
     font-family: 'Josefin Sans', sans-serif;
-    margin-left: 23em;
+    margin-left: 27em;
     width: 200%;
   }
   .company-content {
     text-align: left;
-    margin-left: 34.5em;
+    margin-left: 40.5em;
     width: 120%;
   }
   .img-company-logo {
     margin-top: 3em;
     width: 220%;
-    margin-left: 23em;
+    margin-left: 26em;
   }
   hr {
     border-top: 1px solid lightgray;
