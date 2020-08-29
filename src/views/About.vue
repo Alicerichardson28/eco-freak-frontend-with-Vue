@@ -1,39 +1,45 @@
 <template>
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg"
-        alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg"
-        alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg"
-        alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+<mdb-carousel
+    :items="thumbnailCarousel"
+    thumbnails
+    :interval="3000"
+  ></mdb-carousel>
 </template>
 
-<!-- <script>
-import { Carousel, CarouselItem } from 'mdbvue';
-export default {
-  name: 'CarouselPage',
-  components: {
-    Carousel,
-    CarouselItem
-  }
-}
-</script> -->
-
+<script>
+  import { mdbCarousel } from "mdbvue";
+  export default {
+    name: "ThumbnailsCarouselPage",
+    components: {
+      mdbCarousel
+    },
+    data() {
+      return {
+        thumbnailCarousel: [
+          {
+            img: true,
+            src:
+              "https://mdbootstrap.com/img/Photos/Slides/img%20(88).jpg",
+            thumbnail:
+              "https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(88).jpg"
+          },
+          {
+            img: true,
+            src:
+              "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
+            thumbnail:
+              "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg"
+          },
+          {
+            img: true,
+            src:
+              "https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg",
+            thumbnail:
+              "https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg"
+          },
+        ]
+      };
+    }
+  };
+</script>
 
