@@ -44,13 +44,14 @@
                 </div>
             </div>
             <div class="bottom">
-                <router-link class="load" to="/moreposts">See More</router-link>
+                <!-- <router-link class="load" to="/moreposts">See More</router-link> -->
+                <button class="load">See More</button>
             </div>
         </section>
     </div>
 </template>
 
-<!-- <script>
+<script>
 export default {
   data () {
     return {
@@ -66,8 +67,10 @@ export default {
         return data.json();
       })
       .then(json => {
-          console.log(json)
         this.posts = json.result;
+        this.posts.map ( post => {
+            console.log(post.title)
+        })
       })
     }
   },
@@ -75,7 +78,7 @@ export default {
     this.getPosts();
   },
 }
-</script> -->
+</script>
 
 
 <style lang="scss">

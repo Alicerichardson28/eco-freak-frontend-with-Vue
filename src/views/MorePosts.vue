@@ -1,6 +1,6 @@
 <template>
     <div class="posts">
-        <div class="post" v-for="post in post" :key="post._id">
+        <div class="post" v-for="post in post.slice(6, count)" :key="post._id">
             <h3>{{post.title}}</h3>
         </div>
     </div>
