@@ -21,6 +21,32 @@
   </div>
 </template>
 
+<script>
+export default {
+  data () {
+    return {
+      API_URL:"http://localhost:3000/api/",
+      posts: [],
+      postCount: 6
+    }
+  },
+  methods: {
+    getPosts () {
+      fetch(this.API_URL + "posts/all")
+      .then(data => {
+        return data.json();
+      })
+      .then(json => {
+        console.log(json);
+      })
+    }
+  },
+  beforeMount() {
+    this.getPosts();
+  },
+}
+</script>
+
 
 <style lang="scss">
 #app {
