@@ -19,27 +19,27 @@
             <h3>Latest Post</h3>
             <div class="posts" v-for="post in posts.slice(6, count)" :key="post">
                 <div class="post">
-                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld1.jpg')}')`}"></div>
                     <h4 :title="posts[1].title">{{ posts[1].title }}</h4>
                 </div>
                 <div class="post col-2 row-2">
-                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld2.jpg')}')`}"></div>
                     <h4 :title="posts[2].title">{{ posts[2].title }}</h4>
                 </div>
                 <div class="post row-2">
-                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld3.jpg')}')`}"></div>
                     <h4 :title="posts[3].title">{{ posts[3].title }}</h4>
                 </div>
                 <div class="post row-2">
-                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>    
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld4.jpg')}')`}"></div>    
                     <h4 :title="posts[4].title">{{ posts[4].title }}</h4>
                 </div>
                 <div class="post">
-                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld5.jpg')}')`}"></div>
                     <h4 :title="posts[5].title">{{ posts[5].title }}</h4>
                 </div>
                 <div class="post col-2">
-                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld6.jpg')}')`}"></div>
                     <h4 :title="posts[6].title">{{ posts[6].title }}</h4>
                 </div>
             </div>
