@@ -17,7 +17,7 @@
         </header>
         <section class="latest" >
             <h3>Latest Post</h3>
-            <div class="posts" v-for="post in posts.slice(6, count)" :key="post">
+            <div class="posts" v-if="posts.length >= 6">
                 <div class="post">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld1.jpg')}')`}"></div>
                     <h4 :title="posts[1].title">{{ posts[1].title }}</h4>
@@ -43,39 +43,58 @@
                     <h4 :title="posts[6].title">{{ posts[6].title }}</h4>
                 </div>
             </div>
+            <div class="posts" v-else>
+                <p>Not enough posts to display</p>
+            </div>
             <div class="bottom">
                 <!-- <router-link class="load" to="/moreposts">See More</router-link> -->
                 <button class="load">See More</button>
             </div>
+            <Posts :posts="posts"/>
         </section>
     </div>
 </template>
 
 <script>
+import Posts from "./components/Posts"
+
 export default {
-  data () {
-    return {
-      API_URL:"http://localhost:3000/api/",
-      posts: [],
-      postCount: 6
-    }
-  },
-  methods: {
-    getPosts () {
-      fetch(this.API_URL + "posts/all")
-      .then(data => {
-          return data.json();
-      })
-      .then(json => {
-        console.log(json)
-        this.posts = json.result;
-        
-      })
-    }
-  },
-  beforeMount() {
-    this.getPosts();
-  },
+    name: 'blog',
+    components: {
+        Posts
+    },
+    data () {
+        return {
+        API_URL:"http://localhost:3000/api/",
+        posts: [],
+        postCount: 6
+        }
+    },
+    methods: {
+        getPosts () {
+        fetch(this.API_URL + "posts/all")
+        .then(data => {
+            return data.json();
+        })
+        .then(json => {
+            console.log(json)
+            this.posts = json.result;
+            this.posts = this.posts.sort(function (a, b) {
+                if (a.timestamp < b.timestamp) {
+                    return 1;
+                }
+                if (a.timestamp > b.timestamp) {
+                    return -1;
+                }
+                    return 0;
+            })
+            
+        })
+        }
+    },
+    beforeMount() {
+        this.getPosts();
+    },
 }
 </script>
 
@@ -197,6 +216,13 @@ export default {
                     height: 50px;
                     line-height: 50px;
                     margin: 0px;
+                    overflow: hidden;
+
+                    color: #171717;
+                    font-size: 13px;
+                    font-weight: 400;
+
+                    text-overflow: ellipsis;
                 }
                 &.col-2 { 
                     grid-column: span 2;
