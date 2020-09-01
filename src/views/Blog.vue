@@ -17,30 +17,30 @@
         </header>
         <section class="latest">
             <h3>Latest Post</h3>
-            <div class="posts">
+            <div class="posts" v-for="post in posts" :key="post._id">
                 <div class="post">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
-                    <h4>Plan Ahead</h4>
+                    <h4>{{ post.title }}</h4>
                 </div>
                 <div class="post col-2 row-2">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
-                    <h4>VueJS Fundamentals</h4>
+                    <h4>{{ post.title }}</h4>
                 </div>
                 <div class="post row-2">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
-                    <h4>Alice Richardson</h4>
+                    <h4>{{ post.title }}</h4>
                 </div>
                 <div class="post row-2">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>    
-                    <h4>Parada Richardson</h4>
+                    <h4>{{ post.title }}</h4>
                 </div>
                 <div class="post">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
-                    <h4>Learn Vue JS</h4>
+                    <h4>{{ post.title }}</h4>
                 </div>
                 <div class="post col-2">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/products.jpg')}')`}"></div>
-                    <h4>learn to take a break</h4>
+                    <h4>{{ post.title }}</h4>
                 </div>
             </div>
             <div class="bottom">
@@ -69,7 +69,7 @@ export default {
       .then(json => {
         this.posts = json.result;
         this.posts.map ( post => {
-            console.log(post.title)
+            return post.title
         })
       })
     }
