@@ -46,11 +46,10 @@
             <div class="posts" v-else>
                 <p>Not enough posts to display</p>
             </div>
-            <div class="bottom">
-                <!-- <router-link class="load" to="/moreposts">See More</router-link> -->
+            <!-- <div class="bottom">
                 <button class="load">See More</button>
-            </div>
-            <Posts :posts="posts"/>
+            </div> -->
+            <Posts :posts="posts" :count="postCount"/>
         </section>
     </div>
 </template>
