@@ -4,7 +4,9 @@
             <h3>{{ post.title }}</h3>
             <h1>Hello</h1>
         </div>
-        <button class="load" @click="$emit('showMore')">See More</button>
+        <div>
+            <button class="load" @click="$emit('showMore')">See More</button>
+        </div>
     </div>
 </template>
 
@@ -15,7 +17,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .posts {
     width: 100%;
     max-width: 1280px;
@@ -23,7 +25,7 @@ export default {
     margin: 50px auto;
 }
     .post {
-        display: block;
+        display:  block;
         padding: 15px;
         background: #ffffff;
         box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.2);
@@ -44,6 +46,7 @@ export default {
         box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.2);
 
         color: #171717;
+   
 
         padding-top: 7px;
         box-sizing: border-box;
