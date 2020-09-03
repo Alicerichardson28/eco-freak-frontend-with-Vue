@@ -46,10 +46,7 @@
             <div class="posts" v-else>
                 <p>Not enough posts to display</p>
             </div>
-            <!-- <div class="bottom">
-                <button class="load">See More</button>
-            </div> -->
-            <Posts :posts="posts" :count="postCount"/>
+            <Posts :posts="posts" :count="postCount" @showMore="this.showMore"/>
         </section>
     </div>
 </template>
@@ -71,24 +68,16 @@ export default {
     },
     methods: {
         getPosts () {
-        fetch(this.API_URL + "posts/all")
-        .then(data => {
-            return data.json();
-        })
-        .then(json => {
-            console.log(json)
-            this.posts = json.result;
-            this.posts = this.posts.sort(function (a, b) {
-                if (a.timestamp < b.timestamp) {
-                    return 1;
-                }
-                if (a.timestamp > b.timestamp) {
-                    return -1;
-                }
-                    return 0;
+            fetch(this.API_URL + "posts/all")
+            .then(data => {
+                return data.json();
             })
-            
-        })
+            .then(json => {
+                this.posts = json.result;
+            })
+        },
+        showMore () {
+            this.postCount += 2
         }
     },
     beforeMount() {
@@ -235,20 +224,5 @@ export default {
             }
         }
     }
-    .load {
-        display: block;
-        width: 100%;
-        max-width: 180px;
-        height: 40px;
-        margin-left: 35em;
-        outline: none;
-        border: none;
-        border-radius: 15px;
-        appearance: none;
-
-        background-color:  #42b983;
-        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.2);
-
-        color: #171717;
-    }
+    
 </style>
