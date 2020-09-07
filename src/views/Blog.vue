@@ -61,28 +61,20 @@
         </section>
             <Posts :posts="posts" :count="postCount" @showMore="this.showMore"/>
             <br><br><br><br>
-            <div class="blog-form">
-                <h2 class="topic-form">Write your own blog</h2>
-                <label class="lable-form">Title</label>
-                <input type="text" placeholder="title">
-                 <label class="lable-form">Author</label>
-                <input type="text" placeholder="author">
-                 <label class="lable-form">Content</label>
-                <textarea placeholder="content"></textarea>
-                <br>
-                <button>Post</button>
-            </div>
+            <NewBlog />
     </div>
     
 </template>
 
 <script>
 import Posts from "./components/Posts"
+import NewBlog from "./components/NewBlog"
 
 export default {
     name: 'blog',
     components: {
-        Posts
+        Posts,
+        NewBlog
     },
     data () {
         return {
