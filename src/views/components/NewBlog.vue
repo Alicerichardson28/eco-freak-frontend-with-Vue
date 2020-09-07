@@ -8,7 +8,7 @@
         <label class="lable-form">Content</label>
         <textarea placeholder="content" v-model="Blog.content"></textarea>
         <br>
-        <button type="submit" @click="addToAPI">Submit</button>
+        <button type="submit" @click="post">Submit</button>
     </div>
 </template>
 
@@ -22,15 +22,14 @@ export default {
           Blog: { title:'', author:'',content:'' },
       }
   }, methods: {
-      addToAPI() {
-
-          let newBlog = {
+      post:function() {
+          this.$http.post('http://localhost:3000/api/post/new',{
               title: this.Blog.title,
               author: this.Blog.author,
               content: this.Blog.content
-          }
-          console.log(newBlog)
-        //   axios.post('http://localhost:3000/api/post/new')
+          }).then(function(data) {
+          console.log(data)
+      })
       }
   }
 }
