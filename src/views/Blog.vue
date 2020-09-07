@@ -60,7 +60,20 @@
             </div>
         </section>
             <Posts :posts="posts" :count="postCount" @showMore="this.showMore"/>
+            <br><br><br><br>
+            <div class="blog-form">
+                <h2 class="topic-form">Write your own blog</h2>
+                <label class="lable-form">Title</label>
+                <input type="text" placeholder="title">
+                 <label class="lable-form">Author</label>
+                <input type="text" placeholder="author">
+                 <label class="lable-form">Content</label>
+                <textarea placeholder="content"></textarea>
+                <br>
+                <button>Post</button>
+            </div>
     </div>
+    
 </template>
 
 <script>
@@ -245,5 +258,24 @@ export default {
             }
         }
     }
+
+    .blog-form {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: 5em;
+    }
+
+    .topic-form {
+        text-align: left;
+    }
+    .lable-form {
+        text-align: left;
+    }
+    textarea {
+        height: 200px;
+    }
+    
     
 </style>

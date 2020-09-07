@@ -4,6 +4,7 @@
             <h3 class='title'>{{ post.title }}</h3>
             <h4 class='content'>{{ post.content }}</h4>
         </div>
+        <br>
         <button class="load" @click="$emit('showMore')" v-if="count < posts.length">See More</button>
     </div>
 </template>
