@@ -46,8 +46,8 @@
             <div class="posts" v-else>
                 <p>Not enough posts to display</p>
             </div>
-            <Posts :posts="posts" :count="postCount" @showMore="this.showMore"/>
         </section>
+            <Posts :posts="posts" :count="postCount" @showMore="this.showMore"/>
     </div>
 </template>
 

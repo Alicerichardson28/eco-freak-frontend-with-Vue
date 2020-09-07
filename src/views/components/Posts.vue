@@ -1,12 +1,9 @@
 <template>
     <div class="posts">
         <div class="post" v-for="post in posts.slice(6, count)" :key="post._id">
-            <h3>{{ post.title }}</h3>
-            <h1>Hello</h1>
+            <h3 class='title'>{{ post.title }}</h3>
         </div>
-        <div>
-            <button class="load" @click="$emit('showMore')">See More</button>
-        </div>
+        <button class="load" @click="$emit('showMore')">See More</button>
     </div>
 </template>
 
@@ -17,21 +14,22 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+
 .posts {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1000px;
+    margin-left: 15.5em;
 
-    margin: 50px auto;
-}
     .post {
-        display:  block;
+        display: block;
         padding: 15px;
+        width: 1250px;
         background: #ffffff;
-        box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.2);
+        box-shadow: 3px 3px 8px 0px rgba(0 ,0 ,0 ,0.2);
         margin-bottom: 15px;
     }
-.load {
+    .load {
         display: block;
         width: 100%;
         max-width: 180px;
@@ -46,11 +44,14 @@ export default {
         box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.2);
 
         color: #171717;
-   
-
+    
         padding-top: 7px;
         box-sizing: border-box;
-    }
+    } 
+}
 
-    
+.title {
+    font-weight: 100;
+    font-size: 20px;
+}
 </style>
