@@ -25,9 +25,11 @@ export default {
         display: block;
         padding: 15px;
         width: 1250px;
+        height: 200px;
         background: #ffffff;
         box-shadow: 3px 3px 8px 0px rgba(0 ,0 ,0 ,0.2);
         margin-bottom: 15px;
+        text-align: left;
     }
     .load {
         display: block;

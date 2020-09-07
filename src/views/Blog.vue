@@ -20,27 +20,27 @@
             <div class="posts" v-if="posts.length >= 6">
                 <div class="post">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld1.jpg')}')`}"></div>
-                    <h4 :title="posts[1].title">{{ posts[1].title }}</h4>
+                    <h4 :title="posts[0].title">{{ posts[0].title }}</h4>
                 </div>
                 <div class="post col-2 row-2">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld2.jpg')}')`}"></div>
-                    <h4 :title="posts[2].title">{{ posts[2].title }}</h4>
+                    <h4 :title="posts[1].title">{{ posts[1].title }}</h4>
                 </div>
                 <div class="post row-2">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld3.jpg')}')`}"></div>
-                    <h4 :title="posts[3].title">{{ posts[3].title }}</h4>
+                    <h4 :title="posts[2].title">{{ posts[2].title }}</h4>
                 </div>
                 <div class="post row-2">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld4.jpg')}')`}"></div>    
-                    <h4 :title="posts[4].title">{{ posts[4].title }}</h4>
+                    <h4 :title="posts[3].title">{{ posts[3].title }}</h4>
                 </div>
                 <div class="post">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld5.jpg')}')`}"></div>
-                    <h4 :title="posts[5].title">{{ posts[5].title }}</h4>
+                    <h4 :title="posts[4].title">{{ posts[4].title }}</h4>
                 </div>
                 <div class="post col-2">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld6.jpg')}')`}"></div>
-                    <h4 :title="posts[6].title">{{ posts[6].title }}</h4>
+                    <h4 :title="posts[5].title">{{ posts[5].title }}</h4>
                 </div>
             </div>
             <div class="posts" v-else>
