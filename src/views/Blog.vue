@@ -16,34 +16,46 @@
             </div>
         </header>
         <section class="latest" >
-            <h3>Latest Post</h3>
+            <h3>Post</h3>
             <div class="posts" v-if="posts.length >= 6">
                 <div class="post">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld1.jpg')}')`}"></div>
+                    <a href="http://ecoworld.org/10-small-ways-to-save-the-environment/">
                     <h4 :title="posts[0].title">{{ posts[0].title }}</h4>
+                    </a>
                 </div>
                 <div class="post col-2 row-2">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld2.jpg')}')`}"></div>
+                    <a href="http://ecoworld.org/planning-a-home-solar-electric-system/">
                     <h4 :title="posts[1].title">{{ posts[1].title }}</h4>
+                    </a>
                 </div>
                 <div class="post row-2">
-                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld3.jpg')}')`}"></div>
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld4.jpg')}')`}"></div>
+                    <a href="http://ecoworld.org/6-tips-to-tell-if-your-restaurant-is-eco-friendly/">
                     <h4 :title="posts[2].title">{{ posts[2].title }}</h4>
+                    </a>
                 </div>
                 <div class="post row-2">
-                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld4.jpg')}')`}"></div>    
+                    <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld3.jpg')}')`}"></div>    
+                    <a href="http://ecoworld.org/tips-to-help-the-environment-and-save-money/">
                     <h4 :title="posts[3].title">{{ posts[3].title }}</h4>
+                    </a>
                 </div>
                 <div class="post">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld5.jpg')}')`}"></div>
+                    <a href="https://ecoworld.org/how-to-save-water-at-home/">
                     <h4 :title="posts[4].title">{{ posts[4].title }}</h4>
+                    </a>
                 </div>
                 <div class="post col-2">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld6.jpg')}')`}"></div>
+                    <a href="http://ecoworld.org/the-urban-techno-forest/">
                     <h4 :title="posts[5].title">{{ posts[5].title }}</h4>
+                    </a>
                 </div>
             </div>
-            <div class="posts" v-else>
+            <div class="posts" v-else> 
                 <p>Not enough posts to display</p>
             </div>
         </section>
@@ -74,6 +86,15 @@ export default {
             })
             .then(json => {
                 this.posts = json.result;
+                this.posts = this.posts.sort(function (a,b) {
+                    if (a.timestamp < b.timestamp) {
+                        return -1
+                    }
+                    if (a.timestamp > b.timestamp) {
+                        return 1
+                    }
+                    return 
+                })
             })
         },
         showMore () {

@@ -2,8 +2,9 @@
     <div class="posts">
         <div class="post" v-for="post in posts.slice(6, count)" :key="post._id">
             <h3 class='title'>{{ post.title }}</h3>
+            <h4 class='content'>{{ post.content }}</h4>
         </div>
-        <button class="load" @click="$emit('showMore')">See More</button>
+        <button class="load" @click="$emit('showMore')" v-if="count < posts.length">See More</button>
     </div>
 </template>
 
@@ -25,7 +26,7 @@ export default {
         display: block;
         padding: 15px;
         width: 1250px;
-        height: 200px;
+        height: 100px;
         background: #ffffff;
         box-shadow: 3px 3px 8px 0px rgba(0 ,0 ,0 ,0.2);
         margin-bottom: 15px;
@@ -49,11 +50,18 @@ export default {
     
         padding-top: 7px;
         box-sizing: border-box;
+
+        margin-bottom: 25px;
     } 
 }
 
 .title {
     font-weight: 100;
     font-size: 20px;
+}
+
+.content {
+    font-weight: 100;
+    font-size: 15px;
 }
 </style>
