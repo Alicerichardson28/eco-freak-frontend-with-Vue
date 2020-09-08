@@ -3,9 +3,9 @@
         <header>
             <div class="center">
                 <div class="title">
-                    <h3 class="top">safe environment with</h3>
+                    <h3 class="top">helping the environment with</h3>
                     <h1>Eco-Freak</h1>
-                    <h3 class="bottom">world happy by your hand</h3>
+                    <h3 class="bottom">makes the world happy</h3>
                 </div>
             </div>
             <div class="right">
