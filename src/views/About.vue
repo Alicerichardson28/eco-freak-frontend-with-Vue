@@ -21,9 +21,20 @@
       <h2>50 Ways to Help the Planet - <br> Save Our Environment and Planet Earth</h2>
       <br>
       <p>According from <a href="https://www.50waystohelp.com/"> 50 way to help.com </a> this website is show you how you can help to save this world. <br>
-      When you heard the world saveing the planet soundes big doesn't it? But this website going to show you <br>  
+      When you heard the world saving the planet soundes big doesn't it? But this website going to show you <br>  
       how to save this world in the simple ways to do and can make this world a bit better everyday. 
       </p>
+      <br><br><br>
+      <hr>
+      <div class="footer-container">
+          <h1 class="footer-app-name">Ecofreak</h1>
+          <div class="footer-navbar">
+            <router-link class="link" to="/">Home</router-link> 
+            <router-link class="link" to="/about">About</router-link> 
+            <router-link class="link" to="/product">Product</router-link> 
+            <router-link class="link" to="/blog">Blog</router-link>
+          </div>
+        </div>
   </div>
 </template>
 
@@ -66,7 +77,7 @@
 
 <style lang="scss" scoped>
   .about-container {
-    height: 1500px;
+    height: 1400px;
   }
   .about-content {
     margin-left: 30em;
@@ -75,5 +86,42 @@
   hr {
     width: 70%;
   }
+  .footer-container {
+    margin-top: 12px;
+    height: 52px;
+    margin-left: 10em;
+    width: 90em;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+  }
+
+  .footer-app-name{
+    font-weight: 700;
+    font-size: 150%;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 2em;
+  }
+
+  .footer-navbar {
+    margin: 0;
+    width:  100em;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+
+  }
+
+  a {
+    color: #2c3e50;
+  }
+  a:hover, a:active, a:focus {
+    color:#42b983;
+  }
+  
 </style>
 

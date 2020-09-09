@@ -62,6 +62,16 @@
             <Posts :posts="posts" :count="postCount" @showMore="this.showMore"/>
             <br><br><br><br>
             <NewBlog />
+            <hr>
+        <div class="footer-container">
+          <h1 class="footer-app-name">Ecofreak</h1>
+          <div class="footer-navbar">
+            <router-link class="link" to="/">Home</router-link> 
+            <router-link class="link" to="/about">About</router-link> 
+            <router-link class="link" to="/product">Product</router-link> 
+            <router-link class="link" to="/blog">Blog</router-link>
+          </div>
+        </div>
     </div>
     
 </template>
@@ -268,6 +278,43 @@ export default {
     textarea {
         height: 200px;
     }
+
+    .footer-container {
+    margin-top: 12px;
+    height: 52px;
+    margin-left: 10em;
+    width: 90em;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+  }
+
+  .footer-app-name{
+    font-weight: 700;
+    font-size: 150%;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 2em;
+  }
+
+  .footer-navbar {
+    margin: 0;
+    width:  100em;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+
+  }
+
+  a {
+    color: #2c3e50;
+  }
+  a:hover, a:active, a:focus {
+    color:#42b983;
+  }
     
     
 </style>
