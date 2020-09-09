@@ -223,12 +223,12 @@
     font-weight: 700;
     font-size: 150%;
     text-align: left;
-    margin-left: 20em;
+    margin-left: 25em;
     font-family: 'Josefin Sans', sans-serif;
   }
   .content{
     text-align: left;
-    margin-left: 30em;
+    margin-left: 37em;
     font-family: 'Josefin Sans', sans-serif;
   }
   .third-content-container{
