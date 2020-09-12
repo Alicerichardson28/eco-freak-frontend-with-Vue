@@ -16,7 +16,7 @@
             </div>
         </header>
         <section class="latest" >
-            <h3>Post</h3>
+            <h3>All Posts</h3>
             <div class="posts" v-if="posts.length >= 6">
                 <div class="post">
                     <div class="image" :style="{ backgroundImage: `url('${require('../assets/ecoworld1.jpg')}')`}"></div>

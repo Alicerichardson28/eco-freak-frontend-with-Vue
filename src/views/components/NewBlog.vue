@@ -2,13 +2,15 @@
     <div class="blog-form">
         <h2 class="topic-form">Write your own blog</h2>
         <label class="lable-form">Title</label>
-        <input type="text" placeholder="title" v-model="Blog.title">
-        <label class="lable-form">Author</label>
-        <input type="text" placeholder="author" v-model="Blog.author">
-        <label class="lable-form">Content</label>
-        <textarea placeholder="content" v-model="Blog.content"></textarea>
+        <input type="text"  v-model="Blog.title">
         <br>
-        <button type="submit" @click="post">Submit</button>
+        <label class="lable-form">Author</label>
+        <input type="text"  v-model="Blog.author">
+        <br>
+        <label class="lable-form">Content</label>
+        <textarea  v-model="Blog.content"></textarea>
+        <br>
+        <button type="submit" @click="post" class='submit'>Submit</button>
     </div>
 </template>
 
@@ -41,7 +43,7 @@ export default {
             width: 600px;
             display: flex;
             flex-direction: column;
-            margin: 0 auto;
+            margin-left: 40em;
             margin-bottom: 5em;
         }
 
@@ -54,5 +56,13 @@ export default {
         textarea {
             height: 200px;
         }
-
+        .submit {
+            margin: 0 auto;
+            width: 30%;
+            height: 40px;
+            border-radius: 5px;
+            color: white;
+            background-color:  #42b956;
+            border: none;
+        }
 </style>

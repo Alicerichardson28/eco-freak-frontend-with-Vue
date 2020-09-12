@@ -38,21 +38,18 @@ export default {
         width: 100%;
         max-width: 180px;
         height: 40px;
-        margin-left: 35em;
+        margin-left: 37em;
         outline: none;
         border: none;
-        border-radius: 15px;
+        border-radius: 5px;
         appearance: none;
 
-        background-color:  #42b983;
+        color: white;
+        background-color:  #42b956;
         box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.2);
-
-        color: #171717;
-    
-        padding-top: 7px;
         box-sizing: border-box;
 
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     } 
 }
 
