@@ -1,5 +1,5 @@
 # eco-freak
-*This is my project using Vue.js, Eco-freak is a website to education and show you, what we can safe this world and help this world to be more green. 
+*This is my project using Vue.js, Eco-freak is a website to educate and show what we can do to save this world and help be more green. 
 
 ## How the app works  
 * To run the app, first clone down the repo to your local device. 
@@ -17,9 +17,9 @@ npm run serve
 
 ## How the app works  
 
-* Click through a navbar with navigate you to about, product and blog pages
-    * Product pages will show you a product with all the reusable product also you can read more
-    * Blog pages you can add your own blog or read the previous article 
+* Click through a navbar to navigate to about, product, and blog pages
+    * Product pages will show you a different reusable merchandise and how to use. 
+    * Blog pages you can add your own blog. To give advice, or ask questions, or read previous posts 
 
 ## Things to add / Down the pipeline
 
