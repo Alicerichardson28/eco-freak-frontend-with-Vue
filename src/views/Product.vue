@@ -48,7 +48,7 @@
                     <div class="product-title-container">
                         <h2 class="product-title"> Compostable Takeout Containers </h2>
                         <p class="product-description">Compostable Takeout Containers Many cities are implementing disposable foam food container bans. </p>
-                        <button class="btn"><a href="https://stonepierpress.org/goodfoodnews/compostable-containers">Read more</a></button>
+                        <button class="btn"><a href="https://www.eater.com/2020/1/15/21065446/compostable-take-out-containers">Read more</a></button>
                     </div>
                 </li>
                 <li class="card">
@@ -56,7 +56,7 @@
                     <div class="product-title-container">
                         <h2 class="product-title"> Compostable Tablecloth </h2>
                         <p class="product-description">compostable tablecovers made of a reusable.these tablecovers are sturdier than traditional plastic tablecovers.  </p>
-                        <button class="btn"><a href="">Read more</a></button>
+                        <button class="btn"><a href="https://ecologycenter.org/blog/tips-for-greening-your-picnics/">Read more</a></button>
                     </div>
                 </li>
                 <li class="card">
@@ -64,7 +64,7 @@
                     <div class="product-title-container">
                         <h2 class="product-title"> Compostable Cutleries </h2>
                         <p class="product-description">NATURAL DISPOSABLE CUTLERY: Instead of getting boxes full of clear plastic cutlery that can hurt our ecosystem.</p>
-                        <button class="btn"><a href="">Read more</a></button>
+                        <button class="btn"><a href="https://www.capradio.org/articles/2015/02/17/is-compostable-cutlery-really-breaking-down/">Read more</a></button>
                     </div>
                 </li>
                 <li class="card">
@@ -72,7 +72,7 @@
                     <div class="product-title-container">
                         <h2 class="product-title"> Compostable PLA Cold Cups </h2>
                         <p class="product-description">Compostable PLA plastic cups and lids have no plastic taste because they're made from plants.</p>
-                        <button class="btn"><a href="">Read more</a></button>
+                        <button class="btn"><a href="https://sustainableamerica.org/blog/the-compostable-cup-conundrum/">Read more</a></button>
                     </div>
                 </li>
                 <li class="card">
@@ -88,7 +88,7 @@
                     <div class="product-title-container">
                         <h2 class="product-title"> Bamboo straws </h2>
                         <p class="product-description">Bamboo Drinking Straws Reusable 100% natural and Organic Strong & Durable Bamboo Straws, No plastic, no pesticides. </p>
-                        <button class="btn"><a href="">Read more</a></button>
+                        <button class="btn"><a href="https://www.junglestraws.com/blog/why-bamboo-straws-are-better">Read more</a></button>
                     </div>
                 </li>
                 <li class="card">
@@ -96,7 +96,7 @@
                     <div class="product-title-container">
                         <h2 class="product-title"> Paper straws </h2>
                         <p class="product-description">Paper straws are marine life-friendly, they'll break down in 6 months, meaning they're safer for wildlife than plastic straws. </p>
-                        <button class="btn"><a href="">Read more</a></button>
+                        <button class="btn"><a href="https://www.nrdc.org/stories/will-shifting-reusable-straws-really-make-difference?gclid=CjwKCAjw4_H6BRALEiwAvgfzqymnx2q2rPNnLJ6dISFQuURe3hDd0gro-rtprHg02kGZ9JN8UWJobBoCU4QQAvD_BwE">Read more</a></button>
                     </div>
                 </li>
                 <li class="card">
@@ -104,7 +104,7 @@
                     <div class="product-title-container">
                         <h2 class="product-title"> Pasta straws </h2>
                         <p class="product-description">Pasta Straws have only two ingredients wheat and water,they are safe for human and animal if consumed accidentally. </p>
-                        <button class="btn"><a href="">Read more</a></button>
+                        <button class="btn"><a href="https://www.huffpost.com/entry/pasta-straws_l_5d6e9084e4b0cdfe0576632c">Read more</a></button>
                     </div>
                 </li>
                 <li class="card">
@@ -112,7 +112,7 @@
                     <div class="product-title-container">
                         <h2 class="product-title"> Bamboo Cotton Buds </h2>
                         <p class="product-description">Plastic-free bamboo cotton buds can be disposed of by simply throwing them into your organic waste or compost. </p>
-                        <button class="btn"><a href="">Read more</a></button>
+                        <button class="btn"><a href="https://bamboodu.com/the-best-eco-friendly-cotton-bud-alternatives/">Read more</a></button>
                     </div>
                 </li>
                 <li class="card">
@@ -120,7 +120,7 @@
                     <div class="product-title-container">
                         <h2 class="product-title"> Bamboo toothbrush </h2>
                         <p class="product-description">Bamboo handle: 100% compostable. This toothbrush is the perfect replacement for plastic toothbrushes. </p>
-                        <button class="btn"><a href="">Read more</a></button>
+                        <button class="btn"><a href="https://greenertywyn.co.uk/tips-tricks/plastic-vs-bamboo-toothbrushes-better-for-the-environment">Read more</a></button>
                     </div>
                 </li>
                 <li class="card">
@@ -128,7 +128,7 @@
                     <div class="product-title-container">
                         <h2 class="product-title"> Bamboo Bath Tissue </h2>
                         <p class="product-description">Made from sustainably grown bamboo & sugarcane, both are fast growing grasses giving you a sustainable eco-friendly.</p>
-                        <button class="btn"><a href="">Read more</a></button>
+                        <button class="btn"><a href="https://www.greenmatters.com/news/2017/05/18/ZPF9SO/bamboo-toilet-paper">Read more</a></button>
                     </div>
                 </li>
                 <li class="card">
@@ -136,7 +136,7 @@
                     <div class="product-title-container">
                         <h2 class="product-title"> market bag </h2>
                         <p class="product-description">Reusable produce bags are environmentally friendly and very convenient. They are easy to use and store. </p>
-                        <button class="btn"><a href="">Read more</a></button>
+                        <button class="btn"><a href="https://www.theatlantic.com/technology/archive/2016/09/to-tote-or-note-to-tote/498557/">Read more</a></button>
                     </div>
                 </li>
             </ul>
