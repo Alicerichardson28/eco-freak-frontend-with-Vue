@@ -11,18 +11,19 @@
       <p class='about-content'>
       We are living in a time of turmoil for the Earth. Species extinction, deforestation, climate change, rising sea levels, <br> 
       and many other problems face the planet we call home. These problems are a result of the way modern society exploits <br> 
-      the Earth and her resources—the way we relate to the Earth as separate, non-living, and unlimited. I believe that we can <br> 
+      the Earth and its resources—the way we relate to the Earth as separate, non-living, and unlimited. I believe that we can <br> 
       transform our relationship to the Earth. Instead of seeing the Earth as outside ourselves, we can see the Earth as our <br>  
-      extended body, our home. Perhaps then, we would take care of her the way we would take care of our own body.
+      extended body, our home. Perhaps then, we should take care of it the way we would take care of our own body.
       </p>
       <br>
       <hr>
       <br>
       <h2>50 Ways to Help the Planet - <br> Save Our Environment and Planet Earth</h2>
       <br>
-      <p>According from <a href="https://www.50waystohelp.com/"> 50 way to help.com </a> this website is show you how you can help to save this world. <br>
-      When you heard the world saving the planet soundes big doesn't it? But this website going to show you <br>  
-      how to save this world in the simple ways to do and can make this world a bit better everyday. 
+      <p>According to <a href="https://www.50waystohelp.com/"> 50 ways to help.com </a> you can help to save this world. <br> 
+      When you hear the words "saving the planet" it soundes big doesn't it? <br> 
+      But this website will show you how to save the world in simple easy to understand ways. <br> 
+      We can accomplish great feats, with small changes if we do them collectivly.  
       </p>
       <br><br><br>
       <hr>

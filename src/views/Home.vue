@@ -15,20 +15,20 @@
           <br>
           <p class="content">
             October is National Work & Family Month, when businesses, academic institutions, <br>
-            federal agencies, members of Congress,work-life advocacy groups, and individuals collectively <br>
-            raise awareness about making it easier for employees to succeed at work and at home. <br>
-            We know a simple and extremely effective solution: Go green! As it turns out, going green <br>
-            has plenty of benefits for more than just the planet.Research shows that green buildings <br>
-            have a hugely positive impact on the health (mental and physical) of the lucky people who <br>
-            live and work there.Going green means improving indoor <a href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, <br>
-            and using <a href="https://elemental.green/?s=eco-friendly+materials">eco-friendly materials</a> — all of which contribute to your happiness,health, and productivity. 
+            federal agencies, members of Congress, and individuals, collectively raise awareness, <br> 
+            about making it easier for employees to succeed at work and at home. We know a simple  <br>  
+            and extremely effective solution: Go green! As it turns out, going green has plenty of <br>
+            benefits for more than just the planet. Research shows that green buildings have a hugely <br>
+            positive impact on the phisical and mental health of the lucky people who live and work there. <br>
+            Going green means improving indoor <a class='content-link' href="https://elemental.green/?s=air+quality">air quality</a>, making use of natural lighting, and using <br> 
+            <a class='content-link' href="https://elemental.green/?s=eco-friendly+materials">eco-friendly materials</a> — all of which contribute to your happiness, health, and productivity. 
           </p>
         </div>
         <div class="third-content-container">
           <br><br><br><br>
           <h1 class="three-solutions">Three unbeatable solutions</h1>
           <p class="content-three-solutions">
-              you back the most crucial solutions for our climate. Let’s revive ecosystems, <br> push green innovation, and support communities.
+              The most crucial and infulencial solutions for our climate.  <br> Let’s revive ecosystems, push green innovation, and support communities.
           </p>
           <v-card id="card-container">
             <ul class="bg-transparent">
@@ -66,11 +66,10 @@
           </h1>
           <br>
           <p class="company-content">
-            Companies are therefore seeking more innovative methods of <br> 
-            promoting eco-friendly environments by integrating green <br> 
-            practices in their business functions. The following are the <br>
-            top companies that are taking the lead in incorporating eco-friendly <br> 
-            practices by going green.
+            Companies are seeking more innovative methods of promoting <br> 
+            eco-friendly environments by integrating green practices in their <br> 
+            business functions. The following are the top companies that are <br> 
+            taking the lead in incorporating eco-friendly practices by going green.
           </p>
           <img class="img-company-logo" src="../assets/logo.jpg">
         </div>
@@ -228,7 +227,7 @@
   }
   .content{
     text-align: left;
-    margin-left: 37sem;
+    margin-left: 37em;
     font-family: 'Josefin Sans', sans-serif;
   }
   .third-content-container{
@@ -312,7 +311,7 @@
   .company-content {
     text-align: left;
     margin-left: 40.5em;
-    width: 120%;
+    width: 140%;
   }
   .img-company-logo {
     margin-top: 3em;
@@ -358,7 +357,7 @@
   }
 
   a {
-    color: #2c3e50;
+    color: black;
   }
   a:hover, a:active, a:focus {
     color:#42b983;
@@ -367,6 +366,9 @@
   .video {
     width: 400%;
     height: 1050px;
+  }
+  .content-link {
+    color: #42b983;
   }
 
 </style>
