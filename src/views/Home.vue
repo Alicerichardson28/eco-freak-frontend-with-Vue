@@ -283,7 +283,7 @@
     color: white;
 
     text-decoration: underline;
-    text-decoration-style: wavy;
+    
     text-decoration-color: #24f0a2;
   }
   .des-text {
@@ -293,7 +293,7 @@
     left: 0; 
     width: 100%;
     font-size: 120%;
-    font-weight: 500; 
+    font-weight: 700; 
     font-family: 'Josefin Sans', sans-serif;
     color: white;
   }
