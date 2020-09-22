@@ -44,14 +44,14 @@
                   <h1 class="title-text">Technology</h1>
                   <p class="des-text">Renewable energy keeps carbon in the ground</p>
                 </div>
-                <img class="img-card" src="../assets/solarcell6.jpg">
+                <img class="img-card" src="../assets/solarcell7.jpeg">
               </li>
               <li class="list-card">
                 <div class="title-container">
                   <h1 class="title-text">Social</h1>
                   <p class="des-text">Improving lives while saving our earth</p>
                 </div>
-                <img class="img-card" src="../assets/africankids1.jpg">
+                <img class="img-card" src="../assets/social1.png">
               </li>
             </ul>
           </v-card>
