@@ -35,18 +35,21 @@
               <li class="list-card">
                 <div class="title-container">
                   <h1 class="title-text">Nature</h1>
+                  <p class="des-text">The mother of carbon capture technology</p>
                 </div>
                 <img class="img-card" src="../assets/nature1.jpeg">
               </li>
               <li class="list-card">
                 <div class="title-container">
                   <h1 class="title-text">Technology</h1>
+                  <p class="des-text">Renewable energy keeps carbon in the ground</p>
                 </div>
                 <img class="img-card" src="../assets/solarcell6.jpg">
               </li>
               <li class="list-card">
                 <div class="title-container">
                   <h1 class="title-text">Social</h1>
+                  <p class="des-text">Improving lives while saving our earth</p>
                 </div>
                 <img class="img-card" src="../assets/africankids1.jpg">
               </li>
@@ -284,6 +287,17 @@
     text-decoration: underline;
     text-decoration-style: wavy;
     text-decoration-color: #24f0a2;
+  }
+  .des-text {
+    position: absolute; 
+    margin-top: 2em;
+    top: 80px; 
+    left: 0; 
+    width: 100%;
+    font-size: 120%;
+    font-weight: 500; 
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
   }
   .three-solutions{
     font-size: 300%;
