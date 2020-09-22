@@ -258,11 +258,10 @@
   .list-card {
     align-items: center;
     width: 230px;
-    height: 300px;
+    height: 350px;
     margin: 0 auto;
     box-shadow: 0 5px 15px 6px rgb(156, 156, 156);
     border-radius: 25px;
-    opacity: 0.9;
   }
   .img-card{
     width: 100%;
@@ -274,15 +273,14 @@
   }
   .title-text {
     position: absolute; 
+    margin-top: 2em;
     top: 30px; 
     left: 0; 
     width: 100%;
     font-size: 200%;
-    font-weight: 500; 
+    font-weight: 700; 
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    text-shadow: 2px 2px 3px #cfcfcf;
-
 
     text-decoration: underline;
     text-decoration-style: wavy;
@@ -290,7 +288,7 @@
   }
   .des-text {
     position: absolute; 
-    margin-top: 2em;
+    margin-top: 4em;
     top: 80px; 
     left: 0; 
     width: 100%;
