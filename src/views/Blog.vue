@@ -88,7 +88,7 @@ export default {
     },
     data () {
         return {
-        API_URL:"http://localhost:3000/api/",
+        API_URL:"/api/",
         posts: [],
         postCount: 6
         }
