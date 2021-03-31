@@ -1,7 +1,9 @@
 <template>
   <div class="home-container">  
       <div class="first-content-container">
-        <h1 class="header">HOW TO GO GREEN</h1>
+        <div class='header-container'>
+          <h1 class="header">HOW TO GO GREEN</h1>
+        </div>
         <br>
         <p class="paragrah-container"> 
         A lot of people are daunted by the idea of
@@ -97,6 +99,7 @@
 
 <script>
   import { mdbCarousel } from "mdbvue";
+
   export default {
     name: "VideoCarouselPage",
     components: {
@@ -188,6 +191,7 @@
   }
 
   .home-container{
+    width: 100%;
     display: flex;
     flex-direction: row;
   }
@@ -198,9 +202,9 @@
   .header {
     width: 80%;
     text-align: left;
-    margin-left: 6.5em;
+    margin-left: 160px;
     font-weight: 700;
-    font-size: 150%;
+    font-size: 26px;
     font-family: 'Josefin Sans', sans-serif;
   }
   .paragrah-container {
@@ -223,14 +227,14 @@
   .content-header {
     margin-top: 15em;
     font-weight: 700;
-    font-size: 150%;
+    font-size: 26px;
     text-align: left;
-    margin-left: 25em;
+    margin-left: 590px;
     font-family: 'Josefin Sans', sans-serif;
   }
   .content{
     text-align: left;
-    margin-left: 37em;
+    margin-left: 590px;
     font-family: 'Josefin Sans', sans-serif;
   }
   .third-content-container{
@@ -382,10 +386,68 @@
   .content-link {
     color: #42b983;
   }
+   /* responsive Mobile screen */
+     @media screen and (max-width: 375px) {
+      .first-content-container {
+        width: 60%;
+        margin-left: 0;
+      }
+      .header-container {
+         width: 100%;
+      }
+      .header {
+        text-align: left;
+        margin: 0;
+        font-weight: 700;
+        font-size: 17px;
+      }
+       .paragrah-container {
+        align-items: center;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      .image-container {  
+          display: none;
+      }
+       .content-header {
+        margin-top: 15em;
+        font-weight: 700;
+        font-size: 17px;
+        text-align: left;
+        margin-left: 0;
+      }
+      .content{
+        text-align: left;
+        margin-left: 0;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+    }
+    /* responsive Tablet screen */
+    @media screen and (max-width: 768px) {
+        
+    }
+    
+    /* responsive Laptop screen */
+    @media screen and (max-width: 1050px) {
+    
+    }
 
 </style>
 
 
-
-
-       
+// /* responsive Mobile screen */
+//      @media screen and (max-width: 375px) {
+        
+//     }
+//     /* responsive Tablet screen */
+//     @media screen and (max-width: 768px) {
+        
+//     }
+    
+//     /* responsive Laptop screen */
+//     @media screen and (max-width: 1050px) {
+    
+//     }

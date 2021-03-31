@@ -24,7 +24,7 @@ export default {
       }
   }, methods: {
       post:function() {
-          this.$http.post('http://localhost:4000/api/post/new',{
+          this.$http.post('https://eco-freak-backend.herokuapp.com/api/post/new',{
               title: this.Blog.title,
               author: this.Blog.author,
               content: this.Blog.content

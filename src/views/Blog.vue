@@ -88,7 +88,7 @@ export default {
     },
     data () {
         return {
-        API_URL:"http://localhost:4000/api/",
+        API_URL:"https://eco-freak-backend.herokuapp.com/api/",
         posts: [],
         postCount: 6
         }
